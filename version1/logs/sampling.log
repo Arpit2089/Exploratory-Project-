@@ -1,0 +1,89 @@
+2026-02-09 00:03:39 |    INFO | sampling | Fitted KDE on 1 individuals
+2026-02-09 00:03:39 |    INFO | sampling | Sampled 6 individuals via KDE
+2026-02-09 00:07:45 |    INFO | sampling | Fitted KDE on 1 individuals
+2026-02-09 00:07:45 |    INFO | sampling | Sampled 6 individuals via KDE
+2026-02-09 00:12:22 |    INFO | sampling | Fitted KDE on 1 individuals
+2026-02-09 00:12:23 |    INFO | sampling | Sampled 6 individuals via KDE
+2026-02-09 00:16:35 |    INFO | sampling | Fitted KDE on 1 individuals
+2026-02-09 00:16:35 |    INFO | sampling | Sampled 6 individuals via KDE
+2026-02-09 00:16:35 |    INFO | sampling | Fitted KDE on 3 individuals
+2026-02-09 00:16:35 |    INFO | sampling | Sampled 3 individuals via KDE
+2026-02-09 00:16:35 |    INFO | sampling | Fitted KDE on 1 individuals
+2026-02-09 00:16:35 |    INFO | sampling | Sampled 6 individuals via KDE
+2026-02-09 00:22:59 |    INFO | sampling | Fitted KDE on 1 individuals
+2026-02-09 00:22:59 |    INFO | sampling | Sampled 6 individuals via KDE
+2026-02-09 00:22:59 |    INFO | sampling | Fitted KDE on 1 individuals
+2026-02-09 00:22:59 |    INFO | sampling | Sampled 1 individuals via KDE
+2026-02-09 00:22:59 |    INFO | sampling | Fitted KDE on 1 individuals
+2026-02-09 00:22:59 |    INFO | sampling | Sampled 6 individuals via KDE
+2026-02-09 00:22:59 |    INFO | sampling | Fitted KDE on 3 individuals
+2026-02-09 00:22:59 |    INFO | sampling | Sampled 3 individuals via KDE
+2026-02-09 00:22:59 |    INFO | sampling | Fitted KDE on 3 individuals
+2026-02-09 00:22:59 |    INFO | sampling | Sampled 6 individuals via KDE
+2026-02-09 00:22:59 |    INFO | sampling | Fitted KDE on 1 individuals
+2026-02-09 00:22:59 |    INFO | sampling | Sampled 1 individuals via KDE
+2026-02-09 00:22:59 |    INFO | sampling | Fitted KDE on 3 individuals
+2026-02-09 00:22:59 |    INFO | sampling | Sampled 6 individuals via KDE
+2026-02-09 00:22:59 |    INFO | sampling | Fitted KDE on 4 individuals
+2026-02-09 00:25:59 |    INFO | sampling | Fitted KDE on 1 individuals
+2026-02-09 00:25:59 |    INFO | sampling | Sampled 6 individuals via KDE (k=6). probs_min=1.000e+00 probs_max=1.000e+00
+2026-02-09 00:25:59 | WARNING | sampling | KDESampler.fit called with empty individuals list
+2026-02-09 00:25:59 |    INFO | sampling | Fitted KDE on 1 individuals
+2026-02-09 00:25:59 |    INFO | sampling | Sampled 6 individuals via KDE (k=6). probs_min=1.000e+00 probs_max=1.000e+00
+2026-02-09 00:25:59 |    INFO | sampling | Fitted KDE on 3 individuals
+2026-02-09 00:25:59 |    INFO | sampling | Sampled 3 individuals via KDE (k=3). probs_min=1.443e-08 probs_max=1.000e+00
+2026-02-09 00:25:59 |    INFO | sampling | Fitted KDE on 3 individuals
+2026-02-09 00:25:59 |    INFO | sampling | Sampled 6 individuals via KDE (k=6). probs_min=3.333e-01 probs_max=3.333e-01
+2026-02-09 00:25:59 | WARNING | sampling | KDESampler.fit called with empty individuals list
+2026-02-09 00:25:59 |    INFO | sampling | Fitted KDE on 3 individuals
+2026-02-09 00:25:59 |    INFO | sampling | Sampled 6 individuals via KDE (k=6). probs_min=3.333e-01 probs_max=3.333e-01
+2026-02-09 00:25:59 | WARNING | sampling | KDESampler.fit called with empty individuals list
+2026-02-09 00:25:59 |    INFO | sampling | Fitted KDE on 3 individuals
+2026-02-09 00:25:59 |    INFO | sampling | Sampled 6 individuals via KDE (k=6). probs_min=3.333e-01 probs_max=3.333e-01
+2026-02-09 00:25:59 | WARNING | sampling | KDESampler.fit called with empty individuals list
+2026-02-09 00:25:59 |    INFO | sampling | Fitted KDE on 3 individuals
+2026-02-09 00:25:59 |    INFO | sampling | Sampled 6 individuals via KDE (k=6). probs_min=3.333e-01 probs_max=3.333e-01
+2026-02-09 00:25:59 | WARNING | sampling | KDESampler.fit called with empty individuals list
+2026-02-09 00:25:59 |    INFO | sampling | Fitted KDE on 3 individuals
+2026-02-09 00:25:59 |    INFO | sampling | Sampled 6 individuals via KDE (k=6). probs_min=3.333e-01 probs_max=3.333e-01
+2026-02-09 00:25:59 | WARNING | sampling | KDESampler.fit called with empty individuals list
+2026-02-09 00:25:59 |    INFO | sampling | Fitted KDE on 3 individuals
+2026-02-09 00:25:59 |    INFO | sampling | Sampled 6 individuals via KDE (k=6). probs_min=3.333e-01 probs_max=3.333e-01
+2026-02-09 00:25:59 | WARNING | sampling | KDESampler.fit called with empty individuals list
+2026-02-09 00:25:59 |    INFO | sampling | Fitted KDE on 3 individuals
+2026-02-09 00:25:59 |    INFO | sampling | Sampled 6 individuals via KDE (k=6). probs_min=3.333e-01 probs_max=3.333e-01
+2026-02-09 00:25:59 | WARNING | sampling | KDESampler.fit called with empty individuals list
+2026-02-09 00:25:59 |    INFO | sampling | Fitted KDE on 3 individuals
+2026-02-09 00:25:59 |    INFO | sampling | Sampled 6 individuals via KDE (k=6). probs_min=3.333e-01 probs_max=3.333e-01
+2026-02-09 00:25:59 | WARNING | sampling | KDESampler.fit called with empty individuals list
+2026-02-09 00:32:09 |    INFO | sampling | Fitted KDE on 1 individuals
+2026-02-09 00:32:09 |    INFO | sampling | Sampled 6 individuals via KDE (k=6). probs_min=1.000e+00 probs_max=1.000e+00
+2026-02-09 00:32:09 |    INFO | sampling | Fitted KDE on 4 individuals
+2026-02-09 00:32:09 |    INFO | sampling | Sampled 3 individuals via KDE (k=3). probs_min=2.500e-01 probs_max=2.500e-01
+2026-02-09 00:32:09 |    INFO | sampling | Fitted KDE on 1 individuals
+2026-02-09 00:32:09 |    INFO | sampling | Sampled 6 individuals via KDE (k=6). probs_min=1.000e+00 probs_max=1.000e+00
+2026-02-09 00:32:09 | WARNING | sampling | KDESampler.fit called with empty individuals list
+2026-02-09 00:32:09 |    INFO | sampling | Fitted KDE on 1 individuals
+2026-02-09 00:32:09 |    INFO | sampling | Sampled 6 individuals via KDE (k=6). probs_min=1.000e+00 probs_max=1.000e+00
+2026-02-09 00:32:09 | WARNING | sampling | KDESampler.fit called with empty individuals list
+2026-02-09 00:32:09 |    INFO | sampling | Fitted KDE on 1 individuals
+2026-02-09 00:32:09 |    INFO | sampling | Sampled 6 individuals via KDE (k=6). probs_min=1.000e+00 probs_max=1.000e+00
+2026-02-09 00:32:09 | WARNING | sampling | KDESampler.fit called with empty individuals list
+2026-02-09 00:32:09 |    INFO | sampling | Fitted KDE on 1 individuals
+2026-02-09 00:32:09 |    INFO | sampling | Sampled 6 individuals via KDE (k=6). probs_min=1.000e+00 probs_max=1.000e+00
+2026-02-09 00:32:09 | WARNING | sampling | KDESampler.fit called with empty individuals list
+2026-02-09 00:32:09 |    INFO | sampling | Fitted KDE on 1 individuals
+2026-02-09 00:32:09 |    INFO | sampling | Sampled 6 individuals via KDE (k=6). probs_min=1.000e+00 probs_max=1.000e+00
+2026-02-09 00:32:09 | WARNING | sampling | KDESampler.fit called with empty individuals list
+2026-02-09 00:32:09 |    INFO | sampling | Fitted KDE on 1 individuals
+2026-02-09 00:32:09 |    INFO | sampling | Sampled 6 individuals via KDE (k=6). probs_min=1.000e+00 probs_max=1.000e+00
+2026-02-09 00:32:09 | WARNING | sampling | KDESampler.fit called with empty individuals list
+2026-02-09 00:32:09 |    INFO | sampling | Fitted KDE on 1 individuals
+2026-02-09 00:32:09 |    INFO | sampling | Sampled 6 individuals via KDE (k=6). probs_min=1.000e+00 probs_max=1.000e+00
+2026-02-09 00:32:09 | WARNING | sampling | KDESampler.fit called with empty individuals list
+2026-02-09 00:32:09 |    INFO | sampling | Fitted KDE on 1 individuals
+2026-02-09 00:32:09 |    INFO | sampling | Sampled 6 individuals via KDE (k=6). probs_min=1.000e+00 probs_max=1.000e+00
+2026-02-09 00:32:09 | WARNING | sampling | KDESampler.fit called with empty individuals list
+2026-02-09 00:32:09 |    INFO | sampling | Fitted KDE on 1 individuals
+2026-02-09 00:32:09 |    INFO | sampling | Sampled 6 individuals via KDE (k=6). probs_min=1.000e+00 probs_max=1.000e+00
+2026-02-09 00:32:09 | WARNING | sampling | KDESampler.fit called with empty individuals list

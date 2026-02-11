@@ -1,0 +1,260 @@
+2026-02-09 00:03:39 |    INFO | operators | Applying operator: prune
+2026-02-09 00:07:45 |    INFO | operators | Applying operator: skip
+2026-02-09 00:07:45 |    INFO | operators | Applying operator: remove
+2026-02-09 00:12:23 |    INFO | operators | Applying operator: prune
+2026-02-09 00:12:23 |    INFO | operators | Applying operator: sepconv
+2026-02-09 00:12:23 |    INFO | operators | Applying operator: net2wider
+2026-02-09 00:16:35 |    INFO | operators | Applying operator: sepconv
+2026-02-09 00:16:35 |    INFO | operators | Applying operator: skip
+2026-02-09 00:16:35 |    INFO | operators | Applying operator: remove
+2026-02-09 00:16:35 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:16:35 |    INFO | operators | Applying operator: skip
+2026-02-09 00:16:35 |    INFO | operators | Applying operator: remove
+2026-02-09 00:16:35 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:16:35 |    INFO | operators | Applying operator: remove
+2026-02-09 00:16:35 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:16:35 |    INFO | operators | Applying operator: skip
+2026-02-09 00:22:59 |    INFO | operators | Applying operator: net2wider
+2026-02-09 00:22:59 |    INFO | operators | Applying operator: skip
+2026-02-09 00:22:59 | WARNING | operators | Operator skip failed: apply_skip_connection() got an unexpected keyword argument 'from_node'
+2026-02-09 00:22:59 |    INFO | operators | Applying operator: skip
+2026-02-09 00:22:59 | WARNING | operators | Operator skip failed: apply_skip_connection() got an unexpected keyword argument 'from_node'
+2026-02-09 00:22:59 |    INFO | operators | Applying operator: skip
+2026-02-09 00:22:59 | WARNING | operators | Operator skip failed: apply_skip_connection() got an unexpected keyword argument 'from_node'
+2026-02-09 00:22:59 |    INFO | operators | Applying operator: skip
+2026-02-09 00:22:59 | WARNING | operators | Operator skip failed: apply_skip_connection() got an unexpected keyword argument 'from_node'
+2026-02-09 00:22:59 |    INFO | operators | Applying operator: skip
+2026-02-09 00:22:59 | WARNING | operators | Operator skip failed: apply_skip_connection() got an unexpected keyword argument 'from_node'
+2026-02-09 00:22:59 |    INFO | operators | Applying operator: skip
+2026-02-09 00:22:59 | WARNING | operators | Operator skip failed: apply_skip_connection() got an unexpected keyword argument 'from_node'
+2026-02-09 00:22:59 |    INFO | operators | Applying operator: net2wider
+2026-02-09 00:22:59 |    INFO | operators | Applying operator: remove
+2026-02-09 00:22:59 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:22:59 |    INFO | operators | Applying operator: prune
+2026-02-09 00:22:59 |    INFO | operators | Applying operator: prune
+2026-02-09 00:22:59 |    INFO | operators | Applying operator: remove
+2026-02-09 00:22:59 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:22:59 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:22:59 |    INFO | operators | Applying operator: skip
+2026-02-09 00:22:59 | WARNING | operators | Operator skip failed: apply_skip_connection() got an unexpected keyword argument 'from_node'
+2026-02-09 00:22:59 |    INFO | operators | Applying operator: remove
+2026-02-09 00:22:59 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:22:59 |    INFO | operators | Applying operator: skip
+2026-02-09 00:22:59 | WARNING | operators | Operator skip failed: apply_skip_connection() got an unexpected keyword argument 'from_node'
+2026-02-09 00:22:59 |    INFO | operators | Applying operator: net2wider
+2026-02-09 00:22:59 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:22:59 |    INFO | operators | Applying operator: sepconv
+2026-02-09 00:22:59 |    INFO | operators | Applying operator: remove
+2026-02-09 00:22:59 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:22:59 |    INFO | operators | Applying operator: remove
+2026-02-09 00:22:59 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:22:59 |    INFO | operators | Applying operator: prune
+2026-02-09 00:22:59 |    INFO | operators | Applying operator: sepconv
+2026-02-09 00:22:59 |    INFO | operators | Applying operator: net2wider
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: remove
+2026-02-09 00:25:59 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: skip
+2026-02-09 00:25:59 | WARNING | operators | Operator skip failed: apply_skip_connection() got an unexpected keyword argument 'from_node'
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: sepconv
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: net2wider
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: skip
+2026-02-09 00:25:59 | WARNING | operators | Operator skip failed: apply_skip_connection() got an unexpected keyword argument 'from_node'
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: net2wider
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: sepconv
+2026-02-09 00:25:59 | WARNING | operators | Operator sepconv failed: Cannot choose from an empty sequence
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: skip
+2026-02-09 00:25:59 | WARNING | operators | Operator skip failed: apply_skip_connection() got an unexpected keyword argument 'from_node'
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: prune
+2026-02-09 00:25:59 | WARNING | operators | Operator prune failed: No Conv nodes available for pruning
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: skip
+2026-02-09 00:25:59 | WARNING | operators | Operator skip failed: apply_skip_connection() got an unexpected keyword argument 'from_node'
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: remove
+2026-02-09 00:25:59 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: net2wider
+2026-02-09 00:25:59 | WARNING | operators | Operator net2wider failed: No Conv nodes available
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: remove
+2026-02-09 00:25:59 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: prune
+2026-02-09 00:25:59 | WARNING | operators | Operator prune failed: No Conv nodes available for pruning
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: prune
+2026-02-09 00:25:59 | WARNING | operators | Operator prune failed: No Conv nodes available for pruning
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: skip
+2026-02-09 00:25:59 | WARNING | operators | Operator skip failed: apply_skip_connection() got an unexpected keyword argument 'from_node'
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: skip
+2026-02-09 00:25:59 | WARNING | operators | Operator skip failed: apply_skip_connection() got an unexpected keyword argument 'from_node'
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: skip
+2026-02-09 00:25:59 | WARNING | operators | Operator skip failed: apply_skip_connection() got an unexpected keyword argument 'from_node'
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: remove
+2026-02-09 00:25:59 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: skip
+2026-02-09 00:25:59 | WARNING | operators | Operator skip failed: apply_skip_connection() got an unexpected keyword argument 'from_node'
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: prune
+2026-02-09 00:25:59 | WARNING | operators | Operator prune failed: No Conv nodes available for pruning
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: remove
+2026-02-09 00:25:59 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: remove
+2026-02-09 00:25:59 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: remove
+2026-02-09 00:25:59 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: prune
+2026-02-09 00:25:59 | WARNING | operators | Operator prune failed: No Conv nodes available for pruning
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: remove
+2026-02-09 00:25:59 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: skip
+2026-02-09 00:25:59 | WARNING | operators | Operator skip failed: apply_skip_connection() got an unexpected keyword argument 'from_node'
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: prune
+2026-02-09 00:25:59 | WARNING | operators | Operator prune failed: No Conv nodes available for pruning
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: sepconv
+2026-02-09 00:25:59 | WARNING | operators | Operator sepconv failed: Cannot choose from an empty sequence
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: sepconv
+2026-02-09 00:25:59 | WARNING | operators | Operator sepconv failed: Cannot choose from an empty sequence
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: remove
+2026-02-09 00:25:59 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: prune
+2026-02-09 00:25:59 | WARNING | operators | Operator prune failed: No Conv nodes available for pruning
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: net2wider
+2026-02-09 00:25:59 | WARNING | operators | Operator net2wider failed: No Conv nodes available
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: net2wider
+2026-02-09 00:25:59 | WARNING | operators | Operator net2wider failed: No Conv nodes available
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: skip
+2026-02-09 00:25:59 | WARNING | operators | Operator skip failed: apply_skip_connection() got an unexpected keyword argument 'from_node'
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: skip
+2026-02-09 00:25:59 | WARNING | operators | Operator skip failed: apply_skip_connection() got an unexpected keyword argument 'from_node'
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: prune
+2026-02-09 00:25:59 | WARNING | operators | Operator prune failed: No Conv nodes available for pruning
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: remove
+2026-02-09 00:25:59 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: prune
+2026-02-09 00:25:59 | WARNING | operators | Operator prune failed: No Conv nodes available for pruning
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: remove
+2026-02-09 00:25:59 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: prune
+2026-02-09 00:25:59 | WARNING | operators | Operator prune failed: No Conv nodes available for pruning
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: remove
+2026-02-09 00:25:59 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:25:59 |    INFO | operators | Applying operator: prune
+2026-02-09 00:25:59 | WARNING | operators | Operator prune failed: No Conv nodes available for pruning
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: sepconv
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: prune
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: prune
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: skip
+2026-02-09 00:32:09 | WARNING | operators | Operator skip failed: Node.__init__() got an unexpected keyword argument 'id'
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: remove
+2026-02-09 00:32:09 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: sepconv
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: sepconv
+2026-02-09 00:32:09 | WARNING | operators | Operator sepconv failed: Cannot choose from an empty sequence
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: prune
+2026-02-09 00:32:09 | WARNING | operators | Operator prune failed: No Conv nodes available for pruning
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: sepconv
+2026-02-09 00:32:09 | WARNING | operators | Operator sepconv failed: Cannot choose from an empty sequence
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: net2wider
+2026-02-09 00:32:09 | WARNING | operators | Operator net2wider failed: No Conv nodes available
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: remove
+2026-02-09 00:32:09 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: net2wider
+2026-02-09 00:32:09 | WARNING | operators | Operator net2wider failed: No Conv nodes available
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: remove
+2026-02-09 00:32:09 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: sepconv
+2026-02-09 00:32:09 | WARNING | operators | Operator sepconv failed: Cannot choose from an empty sequence
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: skip
+2026-02-09 00:32:09 | WARNING | operators | Operator skip failed: Skip already exists
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: prune
+2026-02-09 00:32:09 | WARNING | operators | Operator prune failed: No Conv nodes available for pruning
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: net2wider
+2026-02-09 00:32:09 | WARNING | operators | Operator net2wider failed: No Conv nodes available
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: sepconv
+2026-02-09 00:32:09 | WARNING | operators | Operator sepconv failed: Cannot choose from an empty sequence
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: prune
+2026-02-09 00:32:09 | WARNING | operators | Operator prune failed: No Conv nodes available for pruning
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: sepconv
+2026-02-09 00:32:09 | WARNING | operators | Operator sepconv failed: Cannot choose from an empty sequence
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: remove
+2026-02-09 00:32:09 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: sepconv
+2026-02-09 00:32:09 | WARNING | operators | Operator sepconv failed: Cannot choose from an empty sequence
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: sepconv
+2026-02-09 00:32:09 | WARNING | operators | Operator sepconv failed: Cannot choose from an empty sequence
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: skip
+2026-02-09 00:32:09 | WARNING | operators | Operator skip failed: Skip already exists
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: sepconv
+2026-02-09 00:32:09 | WARNING | operators | Operator sepconv failed: Cannot choose from an empty sequence
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: remove
+2026-02-09 00:32:09 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: remove
+2026-02-09 00:32:09 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: sepconv
+2026-02-09 00:32:09 | WARNING | operators | Operator sepconv failed: Cannot choose from an empty sequence
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: skip
+2026-02-09 00:32:09 | WARNING | operators | Operator skip failed: Node.__init__() got an unexpected keyword argument 'id'
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: net2wider
+2026-02-09 00:32:09 | WARNING | operators | Operator net2wider failed: No Conv nodes available
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: skip
+2026-02-09 00:32:09 | WARNING | operators | Operator skip failed: Node.__init__() got an unexpected keyword argument 'id'
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: sepconv
+2026-02-09 00:32:09 | WARNING | operators | Operator sepconv failed: Cannot choose from an empty sequence
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: remove
+2026-02-09 00:32:09 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: skip
+2026-02-09 00:32:09 | WARNING | operators | Operator skip failed: Node.__init__() got an unexpected keyword argument 'id'
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: remove
+2026-02-09 00:32:09 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: net2wider
+2026-02-09 00:32:09 | WARNING | operators | Operator net2wider failed: No Conv nodes available
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: skip
+2026-02-09 00:32:09 | WARNING | operators | Operator skip failed: Skip already exists
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: sepconv
+2026-02-09 00:32:09 | WARNING | operators | Operator sepconv failed: Cannot choose from an empty sequence
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: remove
+2026-02-09 00:32:09 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: remove
+2026-02-09 00:32:09 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: remove
+2026-02-09 00:32:09 | WARNING | operators | Operator remove failed: No safe nodes available for removal
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: skip
+2026-02-09 00:32:09 | WARNING | operators | Operator skip failed: Skip already exists
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: prune
+2026-02-09 00:32:09 | WARNING | operators | Operator prune failed: No Conv nodes available for pruning
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: sepconv
+2026-02-09 00:32:09 | WARNING | operators | Operator sepconv failed: Cannot choose from an empty sequence
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: net2wider
+2026-02-09 00:32:09 | WARNING | operators | Operator net2wider failed: No Conv nodes available
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: net2wider
+2026-02-09 00:32:09 | WARNING | operators | Operator net2wider failed: No Conv nodes available
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: prune
+2026-02-09 00:32:09 | WARNING | operators | Operator prune failed: No Conv nodes available for pruning
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: sepconv
+2026-02-09 00:32:09 | WARNING | operators | Operator sepconv failed: Cannot choose from an empty sequence
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: net2wider
+2026-02-09 00:32:09 | WARNING | operators | Operator net2wider failed: No Conv nodes available
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: prune
+2026-02-09 00:32:09 | WARNING | operators | Operator prune failed: No Conv nodes available for pruning
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: net2deeper
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: net2wider
+2026-02-09 00:32:09 | WARNING | operators | Operator net2wider failed: No Conv nodes available
+2026-02-09 00:32:09 |    INFO | operators | Applying operator: net2deeper

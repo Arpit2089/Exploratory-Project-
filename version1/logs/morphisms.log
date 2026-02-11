@@ -1,0 +1,62 @@
+2026-02-08 23:37:53 |    INFO | morphisms | Applying Net2Deeper: inserting nodes conv=6 bn=7 relu=8 after relu_node=2 (channels=8)
+2026-02-08 23:37:53 |   DEBUG | morphisms | Rewired child 3 parents: replaced=True new_parents=[8]
+2026-02-08 23:37:53 |    INFO | morphisms | Initialized BatchNorm as identity (num_features=8)
+2026-02-08 23:37:53 |    INFO | morphisms | Initialized Conv module as identity (shape=(8, 8, 1, 1))
+2026-02-08 23:37:53 |   DEBUG | morphisms | Copied matching params for module 0
+2026-02-08 23:37:53 |   DEBUG | morphisms | Copied matching params for module 1
+2026-02-08 23:37:53 |   DEBUG | morphisms | Copied matching params for module 3
+2026-02-08 23:37:53 |   DEBUG | morphisms | Copied matching params for module 4
+2026-02-08 23:37:53 |    INFO | morphisms | Weight inheritance finished: copied_modules=4, skipped_modules=2
+2026-02-08 23:42:17 |    INFO | morphisms | Applying Net2Deeper: inserting nodes conv=6 bn=7 relu=8 after relu_node=2 (channels=8)
+2026-02-08 23:42:17 |   DEBUG | morphisms | Rewired child 3 parents: replaced=True new_parents=[8]
+2026-02-08 23:42:17 |    INFO | morphisms | Initialized Conv module as identity (shape=(8, 8, 1, 1))
+2026-02-08 23:42:17 | WARNING | morphisms | Initialized BatchNorm as STRICT identity (eps=0) — test-only!
+2026-02-08 23:42:17 |   DEBUG | morphisms | Copied matching params for module 0
+2026-02-08 23:42:17 |   DEBUG | morphisms | Copied matching params for module 1
+2026-02-08 23:42:17 |   DEBUG | morphisms | Copied matching params for module 3
+2026-02-08 23:42:17 |   DEBUG | morphisms | Copied matching params for module 4
+2026-02-08 23:42:17 |    INFO | morphisms | Weight inheritance finished: copied_modules=4, skipped_modules=2
+2026-02-08 23:43:39 |    INFO | morphisms | Applying Net2Deeper: inserting nodes conv=6 bn=7 relu=8 after relu_node=2 (channels=8)
+2026-02-08 23:43:39 |   DEBUG | morphisms | Rewired child 3 parents: replaced=True new_parents=[8]
+2026-02-08 23:43:39 |    INFO | morphisms | Initialized BatchNorm as identity (num_features=8)
+2026-02-08 23:43:39 |    INFO | morphisms | Initialized Conv module as identity (shape=(8, 8, 1, 1))
+2026-02-08 23:43:39 |   DEBUG | morphisms | Copied matching params for module 0
+2026-02-08 23:43:39 |   DEBUG | morphisms | Copied matching params for module 1
+2026-02-08 23:43:39 |   DEBUG | morphisms | Copied matching params for module 3
+2026-02-08 23:43:39 |   DEBUG | morphisms | Copied matching params for module 4
+2026-02-08 23:43:39 |    INFO | morphisms | Weight inheritance finished: copied_modules=4, skipped_modules=2
+2026-02-08 23:46:47 |    INFO | morphisms | Applying Net2Deeper: inserting nodes conv=6 bn=7 relu=8 after relu_node=2 (channels=8)
+2026-02-08 23:46:47 |   DEBUG | morphisms | Rewired child 3 parents: replaced=True new_parents=[8]
+2026-02-08 23:46:47 |    INFO | morphisms | Initialized BatchNorm as identity (num_features=8)
+2026-02-08 23:46:47 |    INFO | morphisms | Initialized Conv module as identity (shape=(8, 8, 1, 1))
+2026-02-08 23:46:47 |   DEBUG | morphisms | Copied matching params for module 0
+2026-02-08 23:46:47 |   DEBUG | morphisms | Copied matching params for module 1
+2026-02-08 23:46:47 |   DEBUG | morphisms | Copied matching params for module 3
+2026-02-08 23:46:47 |   DEBUG | morphisms | Copied matching params for module 4
+2026-02-08 23:46:47 |    INFO | morphisms | Weight inheritance finished: copied_modules=4, skipped_modules=2
+2026-02-08 23:52:50 |    INFO | morphisms | Applying Net2Deeper: inserting nodes conv=6 bn=7 relu=8 after relu_node=2 (channels=8)
+2026-02-08 23:52:50 |   DEBUG | morphisms | Rewired child 3 parents: replaced=True new_parents=[8]
+2026-02-08 23:52:50 |    INFO | morphisms | Initialized Conv module as identity (shape=(8, 8, 1, 1))
+2026-02-08 23:52:50 |    INFO | morphisms | Initialized BatchNorm as identity (num_features=8)
+2026-02-08 23:52:50 |   DEBUG | morphisms | Copied matching params for module 0
+2026-02-08 23:52:50 |   DEBUG | morphisms | Copied matching params for module 1
+2026-02-08 23:52:50 |   DEBUG | morphisms | Copied matching params for module 3
+2026-02-08 23:52:50 |   DEBUG | morphisms | Copied matching params for module 4
+2026-02-08 23:52:50 |    INFO | morphisms | Weight inheritance finished: copied_modules=4, skipped_modules=2
+2026-02-09 00:07:45 |    INFO | morphisms | Adding skip connection: from=0 to=1 via add_node=3
+2026-02-09 00:12:23 |    INFO | morphisms | Applying Net2Wider: node=0 old_out=8 new_out=12
+2026-02-09 00:16:35 |    INFO | morphisms | Adding skip connection: from=0 to=2 via add_node=3
+2026-02-09 00:16:35 |    INFO | morphisms | Adding skip connection: from=0 to=2 via add_node=3
+2026-02-09 00:16:35 |    INFO | morphisms | Adding skip connection: from=2 to=1 via add_node=3
+2026-02-09 00:22:59 |    INFO | morphisms | Applying Net2Wider: node=0 old_out=8 new_out=12
+2026-02-09 00:22:59 |   DEBUG | morphisms | Updated downstream BN 1 num_features=12
+2026-02-09 00:22:59 |    INFO | morphisms | Applying Net2Wider: node=0 old_out=8 new_out=12
+2026-02-09 00:22:59 |   DEBUG | morphisms | Updated downstream BN 1 num_features=12
+2026-02-09 00:22:59 |    INFO | morphisms | Applying Net2Wider: node=0 old_out=4 new_out=8
+2026-02-09 00:22:59 |   DEBUG | morphisms | Updated downstream BN 1 num_features=8
+2026-02-09 00:22:59 |    INFO | morphisms | Applying Net2Wider: node=0 old_out=4 new_out=8
+2026-02-09 00:22:59 |   DEBUG | morphisms | Updated downstream BN 1 num_features=8
+2026-02-09 00:25:59 |    INFO | morphisms | Applying Net2Wider: node=0 old_out=8 new_out=12
+2026-02-09 00:25:59 |   DEBUG | morphisms | Updated downstream BN 1 num_features=12
+2026-02-09 00:25:59 |    INFO | morphisms | Applying Net2Wider: node=0 old_out=8 new_out=12
+2026-02-09 00:25:59 |   DEBUG | morphisms | Updated downstream BN 1 num_features=12

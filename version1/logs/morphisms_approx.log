@@ -1,0 +1,22 @@
+2026-02-09 00:03:39 |    INFO | morphisms_approx | Pruning conv node 0: old_out=8 keep_ratio=0.500000 -> new_out=4
+2026-02-09 00:07:45 |    INFO | morphisms_approx | Removing node 0, parents=[] children=[1]
+2026-02-09 00:07:45 |   DEBUG | morphisms_approx | Child 1 new parents: []
+2026-02-09 00:12:23 |    INFO | morphisms_approx | Pruning conv node 0: old_out=8 -> new_out=4
+2026-02-09 00:12:23 |   DEBUG | morphisms_approx | Updated child BN 1 num_features=4
+2026-02-09 00:12:23 |    INFO | morphisms_approx | Replaced conv 0 with separable conv (in=3 out=8 kernel=3)
+2026-02-09 00:16:35 |    INFO | morphisms_approx | Replaced conv 0 with separable conv (in=3 out=8 kernel=3)
+2026-02-09 00:22:59 |    INFO | morphisms_approx | Pruning conv node 0: old_out=8 -> new_out=4
+2026-02-09 00:22:59 |   DEBUG | morphisms_approx | Updated child BN 1 num_features=4
+2026-02-09 00:22:59 |    INFO | morphisms_approx | Pruning conv node 0: old_out=8 -> new_out=4
+2026-02-09 00:22:59 |   DEBUG | morphisms_approx | Updated child BN 1 num_features=4
+2026-02-09 00:22:59 |    INFO | morphisms_approx | Replaced conv 0 with separable conv (in=3 out=4 kernel=3)
+2026-02-09 00:22:59 |    INFO | morphisms_approx | Pruning conv node 0: old_out=4 -> new_out=2
+2026-02-09 00:22:59 |   DEBUG | morphisms_approx | Updated child BN 1 num_features=2
+2026-02-09 00:22:59 |    INFO | morphisms_approx | Replaced conv 0 with separable conv (in=3 out=4 kernel=3)
+2026-02-09 00:25:59 |    INFO | morphisms_approx | Replaced conv 0 with separable conv (in=3 out=8 kernel=3)
+2026-02-09 00:32:09 |    INFO | morphisms_approx | Replaced conv 0 with separable conv (in=3 out=8 kernel=3)
+2026-02-09 00:32:09 |    INFO | morphisms_approx | Pruning conv node 0: old_out=8 -> new_out=4
+2026-02-09 00:32:09 |   DEBUG | morphisms_approx | Updated child BN 1 num_features=4
+2026-02-09 00:32:09 |    INFO | morphisms_approx | Pruning conv node 0: old_out=8 -> new_out=4
+2026-02-09 00:32:09 |   DEBUG | morphisms_approx | Updated child BN 1 num_features=4
+2026-02-09 00:32:09 |    INFO | morphisms_approx | Replaced conv 0 with separable conv (in=3 out=8 kernel=3)

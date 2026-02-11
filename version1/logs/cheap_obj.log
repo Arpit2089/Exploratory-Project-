@@ -1,0 +1,235 @@
+2026-02-08 23:14:07 |    INFO | cheap_obj | Parameter count: total=2960 trainable=2960
+2026-02-08 23:14:07 |   DEBUG | cheap_obj | Conv layer flops: out_c=8 out_h=32 out_w=32 kernel_ops=27.0 -> 221184
+2026-02-08 23:14:07 |   DEBUG | cheap_obj | Conv layer flops: out_c=8 out_h=32 out_w=32 kernel_ops=27.0 -> 221184
+2026-02-08 23:14:07 |   DEBUG | cheap_obj | Conv layer flops: out_c=16 out_h=32 out_w=32 kernel_ops=8.0 -> 131072
+2026-02-08 23:14:07 |   DEBUG | cheap_obj | Conv layer flops: out_c=16 out_h=32 out_w=32 kernel_ops=144.0 -> 2359296
+2026-02-08 23:14:07 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 2932736
+2026-02-08 23:19:21 |    INFO | cheap_obj | Parameter count: total=232 trainable=232
+2026-02-08 23:19:21 |   DEBUG | cheap_obj | Conv layer flops: out_c=8 out_h=32 out_w=32 kernel_ops=27.0 -> 221184
+2026-02-08 23:19:21 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 221184
+2026-02-09 00:03:39 |    INFO | cheap_obj | Parameter count: total=232 trainable=232
+2026-02-09 00:03:39 |   DEBUG | cheap_obj | Conv layer flops: out_c=8 out_h=32 out_w=32 kernel_ops=27.0 -> 221184
+2026-02-09 00:03:39 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 221184
+2026-02-09 00:03:39 |    INFO | cheap_obj | Parameter count: total=124 trainable=124
+2026-02-09 00:03:39 |   DEBUG | cheap_obj | Conv layer flops: out_c=4 out_h=32 out_w=32 kernel_ops=27.0 -> 110592
+2026-02-09 00:03:39 |   ERROR | cheap_obj | Failed to run flop estimation forward pass
+Traceback (most recent call last):
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\objectives\cheap.py", line 53, in estimate_flops
+    _ = model(fake)
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\architectures\compiler.py", line 132, in forward
+    out = layer(inp)
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\batchnorm.py", line 194, in forward
+    return F.batch_norm(
+           ~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+    ...<11 lines>...
+        self.eps,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\functional.py", line 2846, in batch_norm
+    return torch.batch_norm(
+           ~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+    ...<7 lines>...
+        torch.backends.cudnn.enabled,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+RuntimeError: running_mean should contain 4 elements not 8
+2026-02-09 00:07:45 |    INFO | cheap_obj | Parameter count: total=232 trainable=232
+2026-02-09 00:07:45 |   DEBUG | cheap_obj | Conv layer flops: out_c=8 out_h=32 out_w=32 kernel_ops=27.0 -> 221184
+2026-02-09 00:07:45 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 221184
+2026-02-09 00:07:45 |    INFO | cheap_obj | Parameter count: total=232 trainable=232
+2026-02-09 00:07:45 |   DEBUG | cheap_obj | Conv layer flops: out_c=8 out_h=32 out_w=32 kernel_ops=27.0 -> 221184
+2026-02-09 00:07:45 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 221184
+2026-02-09 00:07:45 |    INFO | cheap_obj | Parameter count: total=16 trainable=16
+2026-02-09 00:07:45 |   ERROR | cheap_obj | Failed to run flop estimation forward pass
+Traceback (most recent call last):
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\objectives\cheap.py", line 53, in estimate_flops
+    _ = model(fake)
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\architectures\compiler.py", line 132, in forward
+    out = layer(inp)
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\batchnorm.py", line 194, in forward
+    return F.batch_norm(
+           ~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+    ...<11 lines>...
+        self.eps,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\functional.py", line 2846, in batch_norm
+    return torch.batch_norm(
+           ~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+    ...<7 lines>...
+        torch.backends.cudnn.enabled,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+RuntimeError: running_mean should contain 3 elements not 8
+2026-02-09 00:12:22 |    INFO | cheap_obj | Parameter count: total=232 trainable=232
+2026-02-09 00:12:22 |   DEBUG | cheap_obj | Conv layer flops: out_c=8 out_h=32 out_w=32 kernel_ops=27.0 -> 221184
+2026-02-09 00:12:22 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 221184
+2026-02-09 00:12:23 |    INFO | cheap_obj | Parameter count: total=116 trainable=116
+2026-02-09 00:12:23 |   DEBUG | cheap_obj | Conv layer flops: out_c=4 out_h=32 out_w=32 kernel_ops=27.0 -> 110592
+2026-02-09 00:12:23 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 110592
+2026-02-09 00:12:23 |    INFO | cheap_obj | Parameter count: total=67 trainable=67
+2026-02-09 00:12:23 |   DEBUG | cheap_obj | Conv layer flops: out_c=3 out_h=32 out_w=32 kernel_ops=9.0 -> 27648
+2026-02-09 00:12:23 |   DEBUG | cheap_obj | Conv layer flops: out_c=8 out_h=32 out_w=32 kernel_ops=3.0 -> 24576
+2026-02-09 00:12:23 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 52224
+2026-02-09 00:12:23 |    INFO | cheap_obj | Parameter count: total=340 trainable=340
+2026-02-09 00:12:23 |   DEBUG | cheap_obj | Conv layer flops: out_c=12 out_h=32 out_w=32 kernel_ops=27.0 -> 331776
+2026-02-09 00:12:23 |   ERROR | cheap_obj | Failed to run flop estimation forward pass
+Traceback (most recent call last):
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\objectives\cheap.py", line 53, in estimate_flops
+    _ = model(fake)
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\architectures\compiler.py", line 132, in forward
+    out = layer(inp)
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\batchnorm.py", line 194, in forward
+    return F.batch_norm(
+           ~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+    ...<11 lines>...
+        self.eps,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\functional.py", line 2846, in batch_norm
+    return torch.batch_norm(
+           ~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+    ...<7 lines>...
+        torch.backends.cudnn.enabled,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+RuntimeError: running_mean should contain 12 elements not 8
+2026-02-09 00:16:35 |    INFO | cheap_obj | Parameter count: total=232 trainable=232
+2026-02-09 00:16:35 |   DEBUG | cheap_obj | Conv layer flops: out_c=8 out_h=32 out_w=32 kernel_ops=27.0 -> 221184
+2026-02-09 00:16:35 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 221184
+2026-02-09 00:16:35 |    INFO | cheap_obj | Parameter count: total=67 trainable=67
+2026-02-09 00:16:35 |   DEBUG | cheap_obj | Conv layer flops: out_c=3 out_h=32 out_w=32 kernel_ops=9.0 -> 27648
+2026-02-09 00:16:35 |   DEBUG | cheap_obj | Conv layer flops: out_c=8 out_h=32 out_w=32 kernel_ops=3.0 -> 24576
+2026-02-09 00:16:35 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 52224
+2026-02-09 00:16:35 |    INFO | cheap_obj | Parameter count: total=232 trainable=232
+2026-02-09 00:16:35 |   DEBUG | cheap_obj | Conv layer flops: out_c=8 out_h=32 out_w=32 kernel_ops=27.0 -> 221184
+2026-02-09 00:16:35 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 221184
+2026-02-09 00:16:35 |    INFO | cheap_obj | Parameter count: total=232 trainable=232
+2026-02-09 00:16:35 |   DEBUG | cheap_obj | Conv layer flops: out_c=8 out_h=32 out_w=32 kernel_ops=27.0 -> 221184
+2026-02-09 00:16:35 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 221184
+2026-02-09 00:16:35 |    INFO | cheap_obj | Parameter count: total=67 trainable=67
+2026-02-09 00:16:35 |   ERROR | cheap_obj | Failed to run flop estimation forward pass
+Traceback (most recent call last):
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\objectives\cheap.py", line 53, in estimate_flops
+    _ = model(fake)
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\architectures\compiler.py", line 77, in forward
+    order = self.graph.topological_sort()
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\architectures\graph.py", line 43, in topological_sort
+    assert len(order) == len(self.nodes), "Graph has a cycle!"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Graph has a cycle!
+2026-02-09 00:22:59 |    INFO | cheap_obj | Parameter count: total=232 trainable=232
+2026-02-09 00:22:59 |   DEBUG | cheap_obj | Conv layer flops: out_c=8 out_h=32 out_w=32 kernel_ops=27.0 -> 221184
+2026-02-09 00:22:59 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 221184
+2026-02-09 00:22:59 |    INFO | cheap_obj | Parameter count: total=348 trainable=348
+2026-02-09 00:22:59 |   DEBUG | cheap_obj | Conv layer flops: out_c=12 out_h=32 out_w=32 kernel_ops=27.0 -> 331776
+2026-02-09 00:22:59 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 331776
+2026-02-09 00:22:59 |    INFO | cheap_obj | Parameter count: total=348 trainable=348
+2026-02-09 00:22:59 |   DEBUG | cheap_obj | Conv layer flops: out_c=12 out_h=32 out_w=32 kernel_ops=27.0 -> 331776
+2026-02-09 00:22:59 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 331776
+2026-02-09 00:22:59 |    INFO | cheap_obj | Parameter count: total=116 trainable=116
+2026-02-09 00:22:59 |   DEBUG | cheap_obj | Conv layer flops: out_c=4 out_h=32 out_w=32 kernel_ops=27.0 -> 110592
+2026-02-09 00:22:59 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 110592
+2026-02-09 00:22:59 |    INFO | cheap_obj | Parameter count: total=116 trainable=116
+2026-02-09 00:22:59 |   DEBUG | cheap_obj | Conv layer flops: out_c=4 out_h=32 out_w=32 kernel_ops=27.0 -> 110592
+2026-02-09 00:22:59 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 110592
+2026-02-09 00:22:59 |    INFO | cheap_obj | Parameter count: total=232 trainable=232
+2026-02-09 00:22:59 |   DEBUG | cheap_obj | Conv layer flops: out_c=8 out_h=32 out_w=32 kernel_ops=27.0 -> 221184
+2026-02-09 00:22:59 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 221184
+2026-02-09 00:22:59 |    INFO | cheap_obj | Parameter count: total=47 trainable=47
+2026-02-09 00:22:59 |   DEBUG | cheap_obj | Conv layer flops: out_c=3 out_h=32 out_w=32 kernel_ops=9.0 -> 27648
+2026-02-09 00:22:59 |   DEBUG | cheap_obj | Conv layer flops: out_c=4 out_h=32 out_w=32 kernel_ops=3.0 -> 12288
+2026-02-09 00:22:59 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 39936
+2026-02-09 00:22:59 |    INFO | cheap_obj | Parameter count: total=58 trainable=58
+2026-02-09 00:22:59 |   DEBUG | cheap_obj | Conv layer flops: out_c=2 out_h=32 out_w=32 kernel_ops=27.0 -> 55296
+2026-02-09 00:22:59 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 55296
+2026-02-09 00:22:59 |    INFO | cheap_obj | Parameter count: total=47 trainable=47
+2026-02-09 00:22:59 |   DEBUG | cheap_obj | Conv layer flops: out_c=3 out_h=32 out_w=32 kernel_ops=9.0 -> 27648
+2026-02-09 00:22:59 |   DEBUG | cheap_obj | Conv layer flops: out_c=4 out_h=32 out_w=32 kernel_ops=3.0 -> 12288
+2026-02-09 00:22:59 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 39936
+2026-02-09 00:22:59 |    INFO | cheap_obj | Parameter count: total=232 trainable=232
+2026-02-09 00:22:59 |   DEBUG | cheap_obj | Conv layer flops: out_c=8 out_h=32 out_w=32 kernel_ops=27.0 -> 221184
+2026-02-09 00:22:59 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 221184
+2026-02-09 00:25:59 |    INFO | cheap_obj | Parameter count: total=232 trainable=232
+2026-02-09 00:25:59 |   DEBUG | cheap_obj | Conv layer flops: out_c=8 out_h=32 out_w=32 kernel_ops=27.0 -> 221184
+2026-02-09 00:25:59 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 221184
+2026-02-09 00:25:59 |    INFO | cheap_obj | Parameter count: total=67 trainable=67
+2026-02-09 00:25:59 |   DEBUG | cheap_obj | Conv layer flops: out_c=3 out_h=32 out_w=32 kernel_ops=9.0 -> 27648
+2026-02-09 00:25:59 |   DEBUG | cheap_obj | Conv layer flops: out_c=8 out_h=32 out_w=32 kernel_ops=3.0 -> 24576
+2026-02-09 00:25:59 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 52224
+2026-02-09 00:25:59 |    INFO | cheap_obj | Parameter count: total=348 trainable=348
+2026-02-09 00:25:59 |   DEBUG | cheap_obj | Conv layer flops: out_c=12 out_h=32 out_w=32 kernel_ops=27.0 -> 331776
+2026-02-09 00:25:59 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 331776
+2026-02-09 00:25:59 |    INFO | cheap_obj | Parameter count: total=348 trainable=348
+2026-02-09 00:25:59 |   DEBUG | cheap_obj | Conv layer flops: out_c=12 out_h=32 out_w=32 kernel_ops=27.0 -> 331776
+2026-02-09 00:25:59 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 331776
+2026-02-09 00:32:09 |    INFO | cheap_obj | Parameter count: total=232 trainable=232
+2026-02-09 00:32:09 |   DEBUG | cheap_obj | Conv layer flops: out_c=8 out_h=32 out_w=32 kernel_ops=27.0 -> 221184
+2026-02-09 00:32:09 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 221184
+2026-02-09 00:32:09 |    INFO | cheap_obj | Parameter count: total=67 trainable=67
+2026-02-09 00:32:09 |   DEBUG | cheap_obj | Conv layer flops: out_c=3 out_h=32 out_w=32 kernel_ops=9.0 -> 27648
+2026-02-09 00:32:09 |   DEBUG | cheap_obj | Conv layer flops: out_c=8 out_h=32 out_w=32 kernel_ops=3.0 -> 24576
+2026-02-09 00:32:09 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 52224
+2026-02-09 00:32:09 |    INFO | cheap_obj | Parameter count: total=116 trainable=116
+2026-02-09 00:32:09 |   DEBUG | cheap_obj | Conv layer flops: out_c=4 out_h=32 out_w=32 kernel_ops=27.0 -> 110592
+2026-02-09 00:32:09 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 110592
+2026-02-09 00:32:09 |    INFO | cheap_obj | Parameter count: total=116 trainable=116
+2026-02-09 00:32:09 |   DEBUG | cheap_obj | Conv layer flops: out_c=4 out_h=32 out_w=32 kernel_ops=27.0 -> 110592
+2026-02-09 00:32:09 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 110592
+2026-02-09 00:32:09 |    INFO | cheap_obj | Parameter count: total=67 trainable=67
+2026-02-09 00:32:09 |   DEBUG | cheap_obj | Conv layer flops: out_c=3 out_h=32 out_w=32 kernel_ops=9.0 -> 27648
+2026-02-09 00:32:09 |   DEBUG | cheap_obj | Conv layer flops: out_c=8 out_h=32 out_w=32 kernel_ops=3.0 -> 24576
+2026-02-09 00:32:09 |    INFO | cheap_obj | Estimated FLOPs (approx, mult-adds): 52224

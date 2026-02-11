@@ -1,0 +1,132 @@
+2026-02-08 23:19:21 |    INFO | individual | Created Individual 0
+2026-02-08 23:19:21 |    INFO | individual | Building model for Individual 0
+2026-02-08 23:19:21 |    INFO | individual | Evaluating cheap objectives for Individual 0
+2026-02-08 23:19:21 |    INFO | individual | Cheap objectives for Individual 0: {'params': 232, 'flops': 221184.0}
+2026-02-09 00:03:39 |    INFO | individual | Created Individual 0
+2026-02-09 00:03:39 |    INFO | individual | Building model for Individual 0
+2026-02-09 00:03:39 |    INFO | individual | Evaluating cheap objectives for Individual 0
+2026-02-09 00:03:39 |    INFO | individual | Cheap objectives for Individual 0: {'params': 232, 'flops': 221184.0}
+2026-02-09 00:03:39 |    INFO | individual | Created Individual 1
+2026-02-09 00:03:39 |    INFO | individual | Building model for Individual 1
+2026-02-09 00:03:39 |    INFO | individual | Evaluating cheap objectives for Individual 1
+2026-02-09 00:07:45 |    INFO | individual | Created Individual 0
+2026-02-09 00:07:45 |    INFO | individual | Building model for Individual 0
+2026-02-09 00:07:45 |    INFO | individual | Evaluating cheap objectives for Individual 0
+2026-02-09 00:07:45 |    INFO | individual | Cheap objectives for Individual 0: {'params': 232, 'flops': 221184.0}
+2026-02-09 00:07:45 |    INFO | individual | Created Individual 1
+2026-02-09 00:07:45 |    INFO | individual | Building model for Individual 1
+2026-02-09 00:07:45 |    INFO | individual | Evaluating cheap objectives for Individual 1
+2026-02-09 00:07:45 |    INFO | individual | Cheap objectives for Individual 1: {'params': 232, 'flops': 221184.0}
+2026-02-09 00:07:45 |    INFO | individual | Created Individual 2
+2026-02-09 00:07:45 |    INFO | individual | Building model for Individual 2
+2026-02-09 00:07:45 |    INFO | individual | Evaluating cheap objectives for Individual 2
+2026-02-09 00:12:22 |    INFO | individual | Created Individual 0
+2026-02-09 00:12:22 |    INFO | individual | Building model for Individual 0
+2026-02-09 00:12:22 |    INFO | individual | Evaluating cheap objectives for Individual 0
+2026-02-09 00:12:22 |    INFO | individual | Cheap objectives for Individual 0: {'params': 232, 'flops': 221184.0}
+2026-02-09 00:12:23 |    INFO | individual | Created Individual 1
+2026-02-09 00:12:23 |    INFO | individual | Building model for Individual 1
+2026-02-09 00:12:23 |    INFO | individual | Evaluating cheap objectives for Individual 1
+2026-02-09 00:12:23 |    INFO | individual | Cheap objectives for Individual 1: {'params': 116, 'flops': 110592.0}
+2026-02-09 00:12:23 |    INFO | individual | Created Individual 2
+2026-02-09 00:12:23 |    INFO | individual | Building model for Individual 2
+2026-02-09 00:12:23 |    INFO | individual | Evaluating cheap objectives for Individual 2
+2026-02-09 00:12:23 |    INFO | individual | Cheap objectives for Individual 2: {'params': 67, 'flops': 52224.0}
+2026-02-09 00:12:23 |    INFO | individual | Created Individual 3
+2026-02-09 00:12:23 |    INFO | individual | Building model for Individual 3
+2026-02-09 00:12:23 |    INFO | individual | Evaluating cheap objectives for Individual 3
+2026-02-09 00:16:35 |    INFO | individual | Created Individual 0
+2026-02-09 00:16:35 |    INFO | individual | Building model for Individual 0
+2026-02-09 00:16:35 |    INFO | individual | Evaluating cheap objectives for Individual 0
+2026-02-09 00:16:35 |    INFO | individual | Cheap objectives for Individual 0: {'params': 232, 'flops': 221184.0}
+2026-02-09 00:16:35 |    INFO | individual | Created Individual 1
+2026-02-09 00:16:35 |    INFO | individual | Building model for Individual 1
+2026-02-09 00:16:35 |    INFO | individual | Evaluating cheap objectives for Individual 1
+2026-02-09 00:16:35 |    INFO | individual | Cheap objectives for Individual 1: {'params': 67, 'flops': 52224.0}
+2026-02-09 00:16:35 |    INFO | individual | Created Individual 2
+2026-02-09 00:16:35 |    INFO | individual | Building model for Individual 2
+2026-02-09 00:16:35 |    INFO | individual | Evaluating cheap objectives for Individual 2
+2026-02-09 00:16:35 |    INFO | individual | Cheap objectives for Individual 2: {'params': 232, 'flops': 221184.0}
+2026-02-09 00:16:35 |    INFO | individual | Created Individual 3
+2026-02-09 00:16:35 |    INFO | individual | Building model for Individual 3
+2026-02-09 00:16:35 |    INFO | individual | Evaluating cheap objectives for Individual 3
+2026-02-09 00:16:35 |    INFO | individual | Cheap objectives for Individual 3: {'params': 232, 'flops': 221184.0}
+2026-02-09 00:16:35 |    INFO | individual | Created Individual 4
+2026-02-09 00:16:35 |    INFO | individual | Building model for Individual 4
+2026-02-09 00:16:35 |    INFO | individual | Evaluating cheap objectives for Individual 4
+2026-02-09 00:22:59 |    INFO | individual | Created Individual 0
+2026-02-09 00:22:59 |    INFO | individual | Building model for Individual 0
+2026-02-09 00:22:59 |    INFO | individual | Evaluating cheap objectives for Individual 0
+2026-02-09 00:22:59 |    INFO | individual | Cheap objectives for Individual 0: {'params': 232, 'flops': 221184.0}
+2026-02-09 00:22:59 |    INFO | individual | Created Individual 1
+2026-02-09 00:22:59 |    INFO | individual | Building model for Individual 1
+2026-02-09 00:22:59 |    INFO | individual | Evaluating cheap objectives for Individual 1
+2026-02-09 00:22:59 |    INFO | individual | Cheap objectives for Individual 1: {'params': 348, 'flops': 331776.0}
+2026-02-09 00:22:59 |    INFO | individual | Created Individual 2
+2026-02-09 00:22:59 |    INFO | individual | Building model for Individual 2
+2026-02-09 00:22:59 |    INFO | individual | Evaluating cheap objectives for Individual 2
+2026-02-09 00:22:59 |    INFO | individual | Cheap objectives for Individual 2: {'params': 348, 'flops': 331776.0}
+2026-02-09 00:22:59 |    INFO | individual | Created Individual 3
+2026-02-09 00:22:59 |    INFO | individual | Building model for Individual 3
+2026-02-09 00:22:59 |    INFO | individual | Evaluating cheap objectives for Individual 3
+2026-02-09 00:22:59 |    INFO | individual | Cheap objectives for Individual 3: {'params': 116, 'flops': 110592.0}
+2026-02-09 00:22:59 |    INFO | individual | Created Individual 4
+2026-02-09 00:22:59 |    INFO | individual | Building model for Individual 4
+2026-02-09 00:22:59 |    INFO | individual | Evaluating cheap objectives for Individual 4
+2026-02-09 00:22:59 |    INFO | individual | Cheap objectives for Individual 4: {'params': 116, 'flops': 110592.0}
+2026-02-09 00:22:59 |    INFO | individual | Created Individual 5
+2026-02-09 00:22:59 |    INFO | individual | Building model for Individual 5
+2026-02-09 00:22:59 |    INFO | individual | Evaluating cheap objectives for Individual 5
+2026-02-09 00:22:59 |    INFO | individual | Cheap objectives for Individual 5: {'params': 232, 'flops': 221184.0}
+2026-02-09 00:22:59 |    INFO | individual | Created Individual 6
+2026-02-09 00:22:59 |    INFO | individual | Building model for Individual 6
+2026-02-09 00:22:59 |    INFO | individual | Evaluating cheap objectives for Individual 6
+2026-02-09 00:22:59 |    INFO | individual | Cheap objectives for Individual 6: {'params': 47, 'flops': 39936.0}
+2026-02-09 00:22:59 |    INFO | individual | Created Individual 7
+2026-02-09 00:22:59 |    INFO | individual | Building model for Individual 7
+2026-02-09 00:22:59 |    INFO | individual | Evaluating cheap objectives for Individual 7
+2026-02-09 00:22:59 |    INFO | individual | Cheap objectives for Individual 7: {'params': 58, 'flops': 55296.0}
+2026-02-09 00:22:59 |    INFO | individual | Created Individual 8
+2026-02-09 00:22:59 |    INFO | individual | Building model for Individual 8
+2026-02-09 00:22:59 |    INFO | individual | Evaluating cheap objectives for Individual 8
+2026-02-09 00:22:59 |    INFO | individual | Cheap objectives for Individual 8: {'params': 47, 'flops': 39936.0}
+2026-02-09 00:22:59 |    INFO | individual | Created Individual 9
+2026-02-09 00:22:59 |    INFO | individual | Building model for Individual 9
+2026-02-09 00:22:59 |    INFO | individual | Evaluating cheap objectives for Individual 9
+2026-02-09 00:22:59 |    INFO | individual | Cheap objectives for Individual 9: {'params': 232, 'flops': 221184.0}
+2026-02-09 00:25:59 |    INFO | individual | Created Individual 0
+2026-02-09 00:25:59 |    INFO | individual | Building model for Individual 0
+2026-02-09 00:25:59 |    INFO | individual | Evaluating cheap objectives for Individual 0
+2026-02-09 00:25:59 |    INFO | individual | Cheap objectives for Individual 0: {'params': 232, 'flops': 221184.0}
+2026-02-09 00:25:59 |    INFO | individual | Created Individual 1
+2026-02-09 00:25:59 |    INFO | individual | Building model for Individual 1
+2026-02-09 00:25:59 |    INFO | individual | Evaluating cheap objectives for Individual 1
+2026-02-09 00:25:59 |    INFO | individual | Cheap objectives for Individual 1: {'params': 67, 'flops': 52224.0}
+2026-02-09 00:25:59 |    INFO | individual | Created Individual 2
+2026-02-09 00:25:59 |    INFO | individual | Building model for Individual 2
+2026-02-09 00:25:59 |    INFO | individual | Evaluating cheap objectives for Individual 2
+2026-02-09 00:25:59 |    INFO | individual | Cheap objectives for Individual 2: {'params': 348, 'flops': 331776.0}
+2026-02-09 00:25:59 |    INFO | individual | Created Individual 3
+2026-02-09 00:25:59 |    INFO | individual | Building model for Individual 3
+2026-02-09 00:25:59 |    INFO | individual | Evaluating cheap objectives for Individual 3
+2026-02-09 00:25:59 |    INFO | individual | Cheap objectives for Individual 3: {'params': 348, 'flops': 331776.0}
+2026-02-09 00:32:09 |    INFO | individual | Created Individual 0
+2026-02-09 00:32:09 |    INFO | individual | Building model for Individual 0
+2026-02-09 00:32:09 |    INFO | individual | Evaluating cheap objectives for Individual 0
+2026-02-09 00:32:09 |    INFO | individual | Cheap objectives for Individual 0: {'params': 232, 'flops': 221184.0}
+2026-02-09 00:32:09 |    INFO | individual | Created Individual 1
+2026-02-09 00:32:09 |    INFO | individual | Building model for Individual 1
+2026-02-09 00:32:09 |    INFO | individual | Evaluating cheap objectives for Individual 1
+2026-02-09 00:32:09 |    INFO | individual | Cheap objectives for Individual 1: {'params': 67, 'flops': 52224.0}
+2026-02-09 00:32:09 |    INFO | individual | Created Individual 2
+2026-02-09 00:32:09 |    INFO | individual | Building model for Individual 2
+2026-02-09 00:32:09 |    INFO | individual | Evaluating cheap objectives for Individual 2
+2026-02-09 00:32:09 |    INFO | individual | Cheap objectives for Individual 2: {'params': 116, 'flops': 110592.0}
+2026-02-09 00:32:09 |    INFO | individual | Created Individual 3
+2026-02-09 00:32:09 |    INFO | individual | Building model for Individual 3
+2026-02-09 00:32:09 |    INFO | individual | Evaluating cheap objectives for Individual 3
+2026-02-09 00:32:09 |    INFO | individual | Cheap objectives for Individual 3: {'params': 116, 'flops': 110592.0}
+2026-02-09 00:32:09 |    INFO | individual | Created Individual 4
+2026-02-09 00:32:09 |    INFO | individual | Building model for Individual 4
+2026-02-09 00:32:09 |    INFO | individual | Evaluating cheap objectives for Individual 4
+2026-02-09 00:32:09 |    INFO | individual | Cheap objectives for Individual 4: {'params': 67, 'flops': 52224.0}

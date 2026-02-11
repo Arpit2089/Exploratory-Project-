@@ -1,0 +1,51 @@
+INITIALIZE population P with trivial architectures
+FOR each N in P:
+    evaluate f_cheap(N)
+    evaluate f_exp(N)          # initial expensive eval
+
+P ← ParetoFront(P)
+
+FOR generation = 1 to G:
+
+    # -----------------------------
+    # Step 1: Density estimation
+    # -----------------------------
+    KDE ← fit_density_estimator({f_cheap(N) | N ∈ P})
+
+    # -----------------------------
+    # Step 2: Parent sampling
+    # -----------------------------
+    DEFINE parent_sampling_prob:
+        p_parent(N) ∝ 1 / KDE(f_cheap(N))
+
+    N_pc ← ∅        # proposed children
+
+    FOR i = 1 to n_pc:
+        parent ← sample(P, p_parent)
+        operator ← sample(T)
+        child ← apply(operator, parent)
+        inherit_weights(child, parent)
+        evaluate f_cheap(child)
+        N_pc ← N_pc ∪ {child}
+
+    # -----------------------------
+    # Step 3: Child acceptance
+    # -----------------------------
+    DEFINE child_accept_prob:
+        p_child(N) ∝ 1 / KDE(f_cheap(N))
+
+    N_ac ← sample(N_pc, p_child, n_ac)
+
+    # -----------------------------
+    # Step 4: Expensive evaluation
+    # -----------------------------
+    FOR each N in N_ac:
+        train(N)               # short Lamarckian training
+        evaluate f_exp(N)
+
+    # -----------------------------
+    # Step 5: Population update
+    # -----------------------------
+    P ← ParetoFront(P ∪ N_ac)
+
+RETURN P

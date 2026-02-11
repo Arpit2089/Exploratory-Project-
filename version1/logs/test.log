@@ -1,0 +1,4 @@
+2026-02-08 23:11:35 |    INFO | test | Model built successfully
+2026-02-08 23:14:07 |    INFO | test | Model built successfully
+2026-02-08 23:14:07 |    INFO | test | Forward output shape: (1, 16, 32, 32)
+2026-02-08 23:14:07 |    INFO | test | Params=2960 FLOPs=2932736

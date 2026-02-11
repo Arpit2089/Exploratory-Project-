@@ -1,0 +1,705 @@
+2026-02-08 23:11:35 |    INFO | compiler | Initializing CompiledModel
+2026-02-08 23:11:35 |    INFO | compiler | Building modules for graph with 13 nodes
+2026-02-08 23:11:35 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:11:35 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-08 23:11:35 |   DEBUG | compiler | Created ReLU node 2
+2026-02-08 23:11:35 |   DEBUG | compiler | Created Conv2d node 3: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:11:35 |   DEBUG | compiler | Created BN node 4: features=8
+2026-02-08 23:11:35 |   DEBUG | compiler | Created ReLU node 5
+2026-02-08 23:11:35 |   DEBUG | compiler | Created merge node 6 (op=concat)
+2026-02-08 23:11:35 |   DEBUG | compiler | Created Conv2d node 7: in=16 out=16 k=3 s=1 p=1 groups=1
+2026-02-08 23:11:35 |   DEBUG | compiler | Created BN node 8: features=16
+2026-02-08 23:11:35 |   DEBUG | compiler | Created ReLU node 9
+2026-02-08 23:11:35 |   DEBUG | compiler | Created Conv2d node 10: in=8 out=16 k=1 s=1 p=0 groups=1
+2026-02-08 23:11:35 |   DEBUG | compiler | Created BN node 11: features=16
+2026-02-08 23:11:35 |   DEBUG | compiler | Created merge node 12 (op=add)
+2026-02-08 23:11:35 |    INFO | compiler | Forward pass order: [0, 3, 1, 4, 2, 5, 10, 6, 11, 7, 8, 9, 12]
+2026-02-08 23:11:35 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-08 23:14:07 |    INFO | compiler | Initializing CompiledModel
+2026-02-08 23:14:07 |    INFO | compiler | Building modules for graph with 13 nodes
+2026-02-08 23:14:07 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:14:07 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-08 23:14:07 |   DEBUG | compiler | Created ReLU node 2
+2026-02-08 23:14:07 |   DEBUG | compiler | Created Conv2d node 3: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:14:07 |   DEBUG | compiler | Created BN node 4: features=8
+2026-02-08 23:14:07 |   DEBUG | compiler | Created ReLU node 5
+2026-02-08 23:14:07 |   DEBUG | compiler | Created merge node 6 (op=concat)
+2026-02-08 23:14:07 |   DEBUG | compiler | Created Conv2d node 7: in=16 out=16 k=3 s=1 p=1 groups=1
+2026-02-08 23:14:07 |   DEBUG | compiler | Created BN node 8: features=16
+2026-02-08 23:14:07 |   DEBUG | compiler | Created ReLU node 9
+2026-02-08 23:14:07 |   DEBUG | compiler | Created Conv2d node 10: in=8 out=16 k=1 s=1 p=0 groups=1
+2026-02-08 23:14:07 |   DEBUG | compiler | Created BN node 11: features=16
+2026-02-08 23:14:07 |   DEBUG | compiler | Created merge node 12 (op=add)
+2026-02-08 23:14:07 |    INFO | compiler | Forward pass order: [0, 3, 1, 4, 2, 5, 10, 6, 11, 7, 8, 9, 12]
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 0 produced output shape (1, 8, 32, 32)
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 3 has no parents — using graph input
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 3 produced output shape (1, 8, 32, 32)
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 1 produced output shape (1, 8, 32, 32)
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 4 produced output shape (1, 8, 32, 32)
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 2 produced output shape (1, 8, 32, 32)
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 5 produced output shape (1, 8, 32, 32)
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 10 produced output shape (1, 16, 32, 32)
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 6 produced output shape (1, 16, 32, 32)
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 11 produced output shape (1, 16, 32, 32)
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 7 produced output shape (1, 16, 32, 32)
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 8 produced output shape (1, 16, 32, 32)
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 9 produced output shape (1, 16, 32, 32)
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 12 produced output shape (1, 16, 32, 32)
+2026-02-08 23:14:07 |    INFO | compiler | Forward pass order: [0, 3, 1, 4, 2, 5, 10, 6, 11, 7, 8, 9, 12]
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 0 produced output shape (1, 8, 32, 32)
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 3 has no parents — using graph input
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 3 produced output shape (1, 8, 32, 32)
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 1 produced output shape (1, 8, 32, 32)
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 4 produced output shape (1, 8, 32, 32)
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 2 produced output shape (1, 8, 32, 32)
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 5 produced output shape (1, 8, 32, 32)
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 10 produced output shape (1, 16, 32, 32)
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 6 produced output shape (1, 16, 32, 32)
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 11 produced output shape (1, 16, 32, 32)
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 7 produced output shape (1, 16, 32, 32)
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 8 produced output shape (1, 16, 32, 32)
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 9 produced output shape (1, 16, 32, 32)
+2026-02-08 23:14:07 |   DEBUG | compiler | Node 12 produced output shape (1, 16, 32, 32)
+2026-02-08 23:19:21 |    INFO | compiler | Initializing CompiledModel
+2026-02-08 23:19:21 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-08 23:19:21 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:19:21 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-08 23:19:21 |   DEBUG | compiler | Created ReLU node 2
+2026-02-08 23:19:21 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-08 23:19:21 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-08 23:19:21 |   DEBUG | compiler | Node 0 produced output shape (1, 8, 32, 32)
+2026-02-08 23:19:21 |   DEBUG | compiler | Node 1 produced output shape (1, 8, 32, 32)
+2026-02-08 23:19:21 |   DEBUG | compiler | Node 2 produced output shape (1, 8, 32, 32)
+2026-02-08 23:37:53 |    INFO | compiler | Initializing CompiledModel
+2026-02-08 23:37:53 |    INFO | compiler | Building modules for graph with 6 nodes
+2026-02-08 23:37:53 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:37:53 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-08 23:37:53 |   DEBUG | compiler | Created ReLU node 2
+2026-02-08 23:37:53 |   DEBUG | compiler | Created Conv2d node 3: in=8 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:37:53 |   DEBUG | compiler | Created BN node 4: features=8
+2026-02-08 23:37:53 |   DEBUG | compiler | Created ReLU node 5
+2026-02-08 23:37:53 |    INFO | compiler | Forward pass order: [0, 1, 2, 3, 4, 5]
+2026-02-08 23:37:53 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-08 23:37:53 |   DEBUG | compiler | Node 0 produced output shape (2, 8, 32, 32)
+2026-02-08 23:37:53 |   DEBUG | compiler | Node 1 produced output shape (2, 8, 32, 32)
+2026-02-08 23:37:53 |   DEBUG | compiler | Node 2 produced output shape (2, 8, 32, 32)
+2026-02-08 23:37:53 |   DEBUG | compiler | Node 3 produced output shape (2, 8, 32, 32)
+2026-02-08 23:37:53 |   DEBUG | compiler | Node 4 produced output shape (2, 8, 32, 32)
+2026-02-08 23:37:53 |   DEBUG | compiler | Node 5 produced output shape (2, 8, 32, 32)
+2026-02-08 23:37:53 |    INFO | compiler | Initializing CompiledModel
+2026-02-08 23:37:53 |    INFO | compiler | Building modules for graph with 9 nodes
+2026-02-08 23:37:53 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:37:53 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-08 23:37:53 |   DEBUG | compiler | Created ReLU node 2
+2026-02-08 23:37:53 |   DEBUG | compiler | Created Conv2d node 3: in=8 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:37:53 |   DEBUG | compiler | Created BN node 4: features=8
+2026-02-08 23:37:53 |   DEBUG | compiler | Created ReLU node 5
+2026-02-08 23:37:53 |   DEBUG | compiler | Created Conv2d node 6: in=8 out=8 k=1 s=1 p=0 groups=1
+2026-02-08 23:37:53 |   DEBUG | compiler | Created BN node 7: features=8
+2026-02-08 23:37:53 |   DEBUG | compiler | Created ReLU node 8
+2026-02-08 23:37:53 |    INFO | compiler | Forward pass order: [0, 1, 2, 6, 7, 8, 3, 4, 5]
+2026-02-08 23:37:53 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-08 23:37:53 |   DEBUG | compiler | Node 0 produced output shape (2, 8, 32, 32)
+2026-02-08 23:37:53 |   DEBUG | compiler | Node 1 produced output shape (2, 8, 32, 32)
+2026-02-08 23:37:53 |   DEBUG | compiler | Node 2 produced output shape (2, 8, 32, 32)
+2026-02-08 23:37:53 |   DEBUG | compiler | Node 6 produced output shape (2, 8, 32, 32)
+2026-02-08 23:37:53 |   DEBUG | compiler | Node 7 produced output shape (2, 8, 32, 32)
+2026-02-08 23:37:53 |   DEBUG | compiler | Node 8 produced output shape (2, 8, 32, 32)
+2026-02-08 23:37:53 |   DEBUG | compiler | Node 3 produced output shape (2, 8, 32, 32)
+2026-02-08 23:37:53 |   DEBUG | compiler | Node 4 produced output shape (2, 8, 32, 32)
+2026-02-08 23:37:53 |   DEBUG | compiler | Node 5 produced output shape (2, 8, 32, 32)
+2026-02-08 23:42:17 |    INFO | compiler | Initializing CompiledModel
+2026-02-08 23:42:17 |    INFO | compiler | Building modules for graph with 6 nodes
+2026-02-08 23:42:17 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:42:17 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-08 23:42:17 |   DEBUG | compiler | Created ReLU node 2
+2026-02-08 23:42:17 |   DEBUG | compiler | Created Conv2d node 3: in=8 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:42:17 |   DEBUG | compiler | Created BN node 4: features=8
+2026-02-08 23:42:17 |   DEBUG | compiler | Created ReLU node 5
+2026-02-08 23:42:17 |    INFO | compiler | Forward pass order: [0, 1, 2, 3, 4, 5]
+2026-02-08 23:42:17 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-08 23:42:17 |   DEBUG | compiler | Node 0 produced output shape (2, 8, 32, 32)
+2026-02-08 23:42:17 |   DEBUG | compiler | Node 1 produced output shape (2, 8, 32, 32)
+2026-02-08 23:42:17 |   DEBUG | compiler | Node 2 produced output shape (2, 8, 32, 32)
+2026-02-08 23:42:17 |   DEBUG | compiler | Node 3 produced output shape (2, 8, 32, 32)
+2026-02-08 23:42:17 |   DEBUG | compiler | Node 4 produced output shape (2, 8, 32, 32)
+2026-02-08 23:42:17 |   DEBUG | compiler | Node 5 produced output shape (2, 8, 32, 32)
+2026-02-08 23:42:17 |    INFO | compiler | Initializing CompiledModel
+2026-02-08 23:42:17 |    INFO | compiler | Building modules for graph with 9 nodes
+2026-02-08 23:42:17 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:42:17 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-08 23:42:17 |   DEBUG | compiler | Created ReLU node 2
+2026-02-08 23:42:17 |   DEBUG | compiler | Created Conv2d node 3: in=8 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:42:17 |   DEBUG | compiler | Created BN node 4: features=8
+2026-02-08 23:42:17 |   DEBUG | compiler | Created ReLU node 5
+2026-02-08 23:42:17 |   DEBUG | compiler | Created Conv2d node 6: in=8 out=8 k=1 s=1 p=0 groups=1
+2026-02-08 23:42:17 |   DEBUG | compiler | Created BN node 7: features=8
+2026-02-08 23:42:17 |   DEBUG | compiler | Created ReLU node 8
+2026-02-08 23:42:17 |    INFO | compiler | Forward pass order: [0, 1, 2, 6, 7, 8, 3, 4, 5]
+2026-02-08 23:42:17 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-08 23:42:17 |   DEBUG | compiler | Node 0 produced output shape (2, 8, 32, 32)
+2026-02-08 23:42:17 |   DEBUG | compiler | Node 1 produced output shape (2, 8, 32, 32)
+2026-02-08 23:42:17 |   DEBUG | compiler | Node 2 produced output shape (2, 8, 32, 32)
+2026-02-08 23:42:17 |   DEBUG | compiler | Node 6 produced output shape (2, 8, 32, 32)
+2026-02-08 23:42:17 |   ERROR | compiler | Layer forward failed at node 7 op=bn inp_shape=torch.Size([2, 8, 32, 32])
+Traceback (most recent call last):
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\architectures\compiler.py", line 132, in forward
+    out = layer(inp)
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\batchnorm.py", line 194, in forward
+    return F.batch_norm(
+           ~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+    ...<11 lines>...
+        self.eps,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\functional.py", line 2844, in batch_norm
+    raise ValueError(f"batch_norm eps must be positive, but got {eps}")
+ValueError: batch_norm eps must be positive, but got 0.0
+2026-02-08 23:43:39 |    INFO | compiler | Initializing CompiledModel
+2026-02-08 23:43:39 |    INFO | compiler | Building modules for graph with 6 nodes
+2026-02-08 23:43:39 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:43:39 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-08 23:43:39 |   DEBUG | compiler | Created ReLU node 2
+2026-02-08 23:43:39 |   DEBUG | compiler | Created Conv2d node 3: in=8 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:43:39 |   DEBUG | compiler | Created BN node 4: features=8
+2026-02-08 23:43:39 |   DEBUG | compiler | Created ReLU node 5
+2026-02-08 23:43:39 |    INFO | compiler | Forward pass order: [0, 1, 2, 3, 4, 5]
+2026-02-08 23:43:39 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-08 23:43:39 |   DEBUG | compiler | Node 0 produced output shape (2, 8, 32, 32)
+2026-02-08 23:43:39 |   DEBUG | compiler | Node 1 produced output shape (2, 8, 32, 32)
+2026-02-08 23:43:39 |   DEBUG | compiler | Node 2 produced output shape (2, 8, 32, 32)
+2026-02-08 23:43:39 |   DEBUG | compiler | Node 3 produced output shape (2, 8, 32, 32)
+2026-02-08 23:43:39 |   DEBUG | compiler | Node 4 produced output shape (2, 8, 32, 32)
+2026-02-08 23:43:39 |   DEBUG | compiler | Node 5 produced output shape (2, 8, 32, 32)
+2026-02-08 23:43:39 |    INFO | compiler | Initializing CompiledModel
+2026-02-08 23:43:39 |    INFO | compiler | Building modules for graph with 9 nodes
+2026-02-08 23:43:39 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:43:39 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-08 23:43:39 |   DEBUG | compiler | Created ReLU node 2
+2026-02-08 23:43:39 |   DEBUG | compiler | Created Conv2d node 3: in=8 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:43:39 |   DEBUG | compiler | Created BN node 4: features=8
+2026-02-08 23:43:39 |   DEBUG | compiler | Created ReLU node 5
+2026-02-08 23:43:39 |   DEBUG | compiler | Created Conv2d node 6: in=8 out=8 k=1 s=1 p=0 groups=1
+2026-02-08 23:43:39 |   DEBUG | compiler | Created BN node 7: features=8
+2026-02-08 23:43:39 |   DEBUG | compiler | Created ReLU node 8
+2026-02-08 23:43:39 |    INFO | compiler | Forward pass order: [0, 1, 2, 6, 7, 8, 3, 4, 5]
+2026-02-08 23:43:39 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-08 23:43:39 |   DEBUG | compiler | Node 0 produced output shape (2, 8, 32, 32)
+2026-02-08 23:43:39 |   DEBUG | compiler | Node 1 produced output shape (2, 8, 32, 32)
+2026-02-08 23:43:39 |   DEBUG | compiler | Node 2 produced output shape (2, 8, 32, 32)
+2026-02-08 23:43:39 |   DEBUG | compiler | Node 6 produced output shape (2, 8, 32, 32)
+2026-02-08 23:43:39 |   DEBUG | compiler | Node 7 produced output shape (2, 8, 32, 32)
+2026-02-08 23:43:39 |   DEBUG | compiler | Node 8 produced output shape (2, 8, 32, 32)
+2026-02-08 23:43:39 |   DEBUG | compiler | Node 3 produced output shape (2, 8, 32, 32)
+2026-02-08 23:43:39 |   DEBUG | compiler | Node 4 produced output shape (2, 8, 32, 32)
+2026-02-08 23:43:39 |   DEBUG | compiler | Node 5 produced output shape (2, 8, 32, 32)
+2026-02-08 23:46:47 |    INFO | compiler | Initializing CompiledModel
+2026-02-08 23:46:47 |    INFO | compiler | Building modules for graph with 6 nodes
+2026-02-08 23:46:47 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:46:47 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-08 23:46:47 |   DEBUG | compiler | Created ReLU node 2
+2026-02-08 23:46:47 |   DEBUG | compiler | Created Conv2d node 3: in=8 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:46:47 |   DEBUG | compiler | Created BN node 4: features=8
+2026-02-08 23:46:47 |   DEBUG | compiler | Created ReLU node 5
+2026-02-08 23:46:47 |    INFO | compiler | Forward pass order: [0, 1, 2, 3, 4, 5]
+2026-02-08 23:46:47 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-08 23:46:47 |   DEBUG | compiler | Node 0 produced output shape (2, 8, 32, 32)
+2026-02-08 23:46:47 |   DEBUG | compiler | Node 1 produced output shape (2, 8, 32, 32)
+2026-02-08 23:46:47 |   DEBUG | compiler | Node 2 produced output shape (2, 8, 32, 32)
+2026-02-08 23:46:47 |   DEBUG | compiler | Node 3 produced output shape (2, 8, 32, 32)
+2026-02-08 23:46:47 |   DEBUG | compiler | Node 4 produced output shape (2, 8, 32, 32)
+2026-02-08 23:46:47 |   DEBUG | compiler | Node 5 produced output shape (2, 8, 32, 32)
+2026-02-08 23:46:47 |    INFO | compiler | Initializing CompiledModel
+2026-02-08 23:46:47 |    INFO | compiler | Building modules for graph with 9 nodes
+2026-02-08 23:46:47 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:46:47 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-08 23:46:47 |   DEBUG | compiler | Created ReLU node 2
+2026-02-08 23:46:47 |   DEBUG | compiler | Created Conv2d node 3: in=8 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:46:47 |   DEBUG | compiler | Created BN node 4: features=8
+2026-02-08 23:46:47 |   DEBUG | compiler | Created ReLU node 5
+2026-02-08 23:46:47 |   DEBUG | compiler | Created Conv2d node 6: in=8 out=8 k=1 s=1 p=0 groups=1
+2026-02-08 23:46:47 |   DEBUG | compiler | Created BN node 7: features=8
+2026-02-08 23:46:47 |   DEBUG | compiler | Created ReLU node 8
+2026-02-08 23:46:47 |    INFO | compiler | Forward pass order: [0, 1, 2, 6, 7, 8, 3, 4, 5]
+2026-02-08 23:46:47 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-08 23:46:47 |   DEBUG | compiler | Node 0 produced output shape (2, 8, 32, 32)
+2026-02-08 23:46:47 |   DEBUG | compiler | Node 1 produced output shape (2, 8, 32, 32)
+2026-02-08 23:46:47 |   DEBUG | compiler | Node 2 produced output shape (2, 8, 32, 32)
+2026-02-08 23:46:47 |   DEBUG | compiler | Node 6 produced output shape (2, 8, 32, 32)
+2026-02-08 23:46:47 |   DEBUG | compiler | Node 7 produced output shape (2, 8, 32, 32)
+2026-02-08 23:46:47 |   DEBUG | compiler | Node 8 produced output shape (2, 8, 32, 32)
+2026-02-08 23:46:47 |   DEBUG | compiler | Node 3 produced output shape (2, 8, 32, 32)
+2026-02-08 23:46:47 |   DEBUG | compiler | Node 4 produced output shape (2, 8, 32, 32)
+2026-02-08 23:46:47 |   DEBUG | compiler | Node 5 produced output shape (2, 8, 32, 32)
+2026-02-08 23:52:50 |    INFO | compiler | Initializing CompiledModel
+2026-02-08 23:52:50 |    INFO | compiler | Building modules for graph with 6 nodes
+2026-02-08 23:52:50 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:52:50 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-08 23:52:50 |   DEBUG | compiler | Created ReLU node 2
+2026-02-08 23:52:50 |   DEBUG | compiler | Created Conv2d node 3: in=8 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:52:50 |   DEBUG | compiler | Created BN node 4: features=8
+2026-02-08 23:52:50 |   DEBUG | compiler | Created ReLU node 5
+2026-02-08 23:52:50 |    INFO | compiler | Forward pass order: [0, 1, 2, 3, 4, 5]
+2026-02-08 23:52:50 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-08 23:52:50 |   DEBUG | compiler | Node 0 produced output shape (2, 8, 32, 32)
+2026-02-08 23:52:50 |   DEBUG | compiler | Node 1 produced output shape (2, 8, 32, 32)
+2026-02-08 23:52:50 |   DEBUG | compiler | Node 2 produced output shape (2, 8, 32, 32)
+2026-02-08 23:52:50 |   DEBUG | compiler | Node 3 produced output shape (2, 8, 32, 32)
+2026-02-08 23:52:50 |   DEBUG | compiler | Node 4 produced output shape (2, 8, 32, 32)
+2026-02-08 23:52:50 |   DEBUG | compiler | Node 5 produced output shape (2, 8, 32, 32)
+2026-02-08 23:52:50 |    INFO | compiler | Initializing CompiledModel
+2026-02-08 23:52:50 |    INFO | compiler | Building modules for graph with 9 nodes
+2026-02-08 23:52:50 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:52:50 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-08 23:52:50 |   DEBUG | compiler | Created ReLU node 2
+2026-02-08 23:52:50 |   DEBUG | compiler | Created Conv2d node 3: in=8 out=8 k=3 s=1 p=1 groups=1
+2026-02-08 23:52:50 |   DEBUG | compiler | Created BN node 4: features=8
+2026-02-08 23:52:50 |   DEBUG | compiler | Created ReLU node 5
+2026-02-08 23:52:50 |   DEBUG | compiler | Created Conv2d node 6: in=8 out=8 k=1 s=1 p=0 groups=1
+2026-02-08 23:52:50 |   DEBUG | compiler | Created BN node 7: features=8
+2026-02-08 23:52:50 |   DEBUG | compiler | Created ReLU node 8
+2026-02-08 23:52:50 |    INFO | compiler | Forward pass order: [0, 1, 2, 6, 7, 8, 3, 4, 5]
+2026-02-08 23:52:50 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-08 23:52:50 |   DEBUG | compiler | Node 0 produced output shape (2, 8, 32, 32)
+2026-02-08 23:52:50 |   DEBUG | compiler | Node 1 produced output shape (2, 8, 32, 32)
+2026-02-08 23:52:50 |   DEBUG | compiler | Node 2 produced output shape (2, 8, 32, 32)
+2026-02-08 23:52:50 |   DEBUG | compiler | Node 6 produced output shape (2, 8, 32, 32)
+2026-02-08 23:52:50 |   DEBUG | compiler | Node 7 produced output shape (2, 8, 32, 32)
+2026-02-08 23:52:50 |   DEBUG | compiler | Node 8 produced output shape (2, 8, 32, 32)
+2026-02-08 23:52:50 |   DEBUG | compiler | Node 3 produced output shape (2, 8, 32, 32)
+2026-02-08 23:52:50 |   DEBUG | compiler | Node 4 produced output shape (2, 8, 32, 32)
+2026-02-08 23:52:50 |   DEBUG | compiler | Node 5 produced output shape (2, 8, 32, 32)
+2026-02-09 00:02:30 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:02:30 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:02:30 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=16 k=3 s=1 p=1 groups=1
+2026-02-09 00:02:30 |   DEBUG | compiler | Created BN node 1: features=16
+2026-02-09 00:02:30 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:02:30 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:02:30 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:02:30 |   DEBUG | compiler | Node 0 produced output shape (1, 16, 32, 32)
+2026-02-09 00:02:30 |   DEBUG | compiler | Node 1 produced output shape (1, 16, 32, 32)
+2026-02-09 00:02:30 |   DEBUG | compiler | Node 2 produced output shape (1, 16, 32, 32)
+2026-02-09 00:03:39 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:03:39 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:03:39 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-09 00:03:39 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-09 00:03:39 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:03:39 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:03:39 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:03:39 |   DEBUG | compiler | Node 0 produced output shape (1, 8, 32, 32)
+2026-02-09 00:03:39 |   DEBUG | compiler | Node 1 produced output shape (1, 8, 32, 32)
+2026-02-09 00:03:39 |   DEBUG | compiler | Node 2 produced output shape (1, 8, 32, 32)
+2026-02-09 00:03:39 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:03:39 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:03:39 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=4 k=3 s=1 p=1 groups=1
+2026-02-09 00:03:39 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-09 00:03:39 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:03:39 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:03:39 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:03:39 |   DEBUG | compiler | Node 0 produced output shape (1, 4, 32, 32)
+2026-02-09 00:03:39 |   ERROR | compiler | Layer forward failed at node 1 op=bn inp_shape=torch.Size([1, 4, 32, 32])
+Traceback (most recent call last):
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\architectures\compiler.py", line 132, in forward
+    out = layer(inp)
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\batchnorm.py", line 194, in forward
+    return F.batch_norm(
+           ~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+    ...<11 lines>...
+        self.eps,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\functional.py", line 2846, in batch_norm
+    return torch.batch_norm(
+           ~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+    ...<7 lines>...
+        torch.backends.cudnn.enabled,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+RuntimeError: running_mean should contain 4 elements not 8
+2026-02-09 00:07:45 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:07:45 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:07:45 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-09 00:07:45 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-09 00:07:45 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:07:45 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:07:45 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:07:45 |   DEBUG | compiler | Node 0 produced output shape (1, 8, 32, 32)
+2026-02-09 00:07:45 |   DEBUG | compiler | Node 1 produced output shape (1, 8, 32, 32)
+2026-02-09 00:07:45 |   DEBUG | compiler | Node 2 produced output shape (1, 8, 32, 32)
+2026-02-09 00:07:45 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:07:45 |    INFO | compiler | Building modules for graph with 4 nodes
+2026-02-09 00:07:45 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-09 00:07:45 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-09 00:07:45 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:07:45 |   DEBUG | compiler | Created merge node 3 (op=add)
+2026-02-09 00:07:45 |    INFO | compiler | Forward pass order: [0, 3, 1, 2]
+2026-02-09 00:07:45 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:07:45 |   DEBUG | compiler | Node 0 produced output shape (1, 8, 32, 32)
+2026-02-09 00:07:45 |   DEBUG | compiler | Node 3 produced output shape (1, 8, 32, 32)
+2026-02-09 00:07:45 |   DEBUG | compiler | Node 1 produced output shape (1, 8, 32, 32)
+2026-02-09 00:07:45 |   DEBUG | compiler | Node 2 produced output shape (1, 8, 32, 32)
+2026-02-09 00:07:45 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:07:45 |    INFO | compiler | Building modules for graph with 2 nodes
+2026-02-09 00:07:45 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-09 00:07:45 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:07:45 |    INFO | compiler | Forward pass order: [1, 2]
+2026-02-09 00:07:45 |   DEBUG | compiler | Node 1 has no parents — using graph input
+2026-02-09 00:07:45 |   ERROR | compiler | Layer forward failed at node 1 op=bn inp_shape=torch.Size([1, 3, 32, 32])
+Traceback (most recent call last):
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\architectures\compiler.py", line 132, in forward
+    out = layer(inp)
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\batchnorm.py", line 194, in forward
+    return F.batch_norm(
+           ~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+    ...<11 lines>...
+        self.eps,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\functional.py", line 2846, in batch_norm
+    return torch.batch_norm(
+           ~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+    ...<7 lines>...
+        torch.backends.cudnn.enabled,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+RuntimeError: running_mean should contain 3 elements not 8
+2026-02-09 00:12:22 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:12:22 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:12:22 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-09 00:12:22 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-09 00:12:22 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:12:22 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:12:22 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:12:22 |   DEBUG | compiler | Node 0 produced output shape (1, 8, 32, 32)
+2026-02-09 00:12:22 |   DEBUG | compiler | Node 1 produced output shape (1, 8, 32, 32)
+2026-02-09 00:12:22 |   DEBUG | compiler | Node 2 produced output shape (1, 8, 32, 32)
+2026-02-09 00:12:23 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:12:23 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:12:23 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=4 k=3 s=1 p=1 groups=1
+2026-02-09 00:12:23 |   DEBUG | compiler | Created BN node 1: features=4
+2026-02-09 00:12:23 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:12:23 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:12:23 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:12:23 |   DEBUG | compiler | Node 0 produced output shape (1, 4, 32, 32)
+2026-02-09 00:12:23 |   DEBUG | compiler | Node 1 produced output shape (1, 4, 32, 32)
+2026-02-09 00:12:23 |   DEBUG | compiler | Node 2 produced output shape (1, 4, 32, 32)
+2026-02-09 00:12:23 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:12:23 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:12:23 |   DEBUG | compiler | Created SeparableConv node 0: in=3 out=8
+2026-02-09 00:12:23 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-09 00:12:23 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:12:23 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:12:23 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:12:23 |   DEBUG | compiler | Node 0 produced output shape (1, 8, 32, 32)
+2026-02-09 00:12:23 |   DEBUG | compiler | Node 1 produced output shape (1, 8, 32, 32)
+2026-02-09 00:12:23 |   DEBUG | compiler | Node 2 produced output shape (1, 8, 32, 32)
+2026-02-09 00:12:23 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:12:23 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:12:23 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=12 k=3 s=1 p=1 groups=1
+2026-02-09 00:12:23 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-09 00:12:23 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:12:23 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:12:23 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:12:23 |   DEBUG | compiler | Node 0 produced output shape (1, 12, 32, 32)
+2026-02-09 00:12:23 |   ERROR | compiler | Layer forward failed at node 1 op=bn inp_shape=torch.Size([1, 12, 32, 32])
+Traceback (most recent call last):
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\architectures\compiler.py", line 132, in forward
+    out = layer(inp)
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\modules\batchnorm.py", line 194, in forward
+    return F.batch_norm(
+           ~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+    ...<11 lines>...
+        self.eps,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\AMOD YADAV\OneDrive\Desktop\VS code fol\xplo\Exploratory-Project\version1\lemonade_env\Lib\site-packages\torch\nn\functional.py", line 2846, in batch_norm
+    return torch.batch_norm(
+           ~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+    ...<7 lines>...
+        torch.backends.cudnn.enabled,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+RuntimeError: running_mean should contain 12 elements not 8
+2026-02-09 00:16:35 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:16:35 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:16:35 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-09 00:16:35 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-09 00:16:35 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:16:35 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:16:35 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:16:35 |   DEBUG | compiler | Node 0 produced output shape (1, 8, 32, 32)
+2026-02-09 00:16:35 |   DEBUG | compiler | Node 1 produced output shape (1, 8, 32, 32)
+2026-02-09 00:16:35 |   DEBUG | compiler | Node 2 produced output shape (1, 8, 32, 32)
+2026-02-09 00:16:35 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:16:35 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:16:35 |   DEBUG | compiler | Created SeparableConv node 0: in=3 out=8
+2026-02-09 00:16:35 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-09 00:16:35 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:16:35 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:16:35 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:16:35 |   DEBUG | compiler | Node 0 produced output shape (1, 8, 32, 32)
+2026-02-09 00:16:35 |   DEBUG | compiler | Node 1 produced output shape (1, 8, 32, 32)
+2026-02-09 00:16:35 |   DEBUG | compiler | Node 2 produced output shape (1, 8, 32, 32)
+2026-02-09 00:16:35 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:16:35 |    INFO | compiler | Building modules for graph with 4 nodes
+2026-02-09 00:16:35 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-09 00:16:35 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-09 00:16:35 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:16:35 |   DEBUG | compiler | Created merge node 3 (op=add)
+2026-02-09 00:16:35 |    INFO | compiler | Forward pass order: [0, 1, 3, 2]
+2026-02-09 00:16:35 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:16:35 |   DEBUG | compiler | Node 0 produced output shape (1, 8, 32, 32)
+2026-02-09 00:16:35 |   DEBUG | compiler | Node 1 produced output shape (1, 8, 32, 32)
+2026-02-09 00:16:35 |   DEBUG | compiler | Node 3 produced output shape (1, 8, 32, 32)
+2026-02-09 00:16:35 |   DEBUG | compiler | Node 2 produced output shape (1, 8, 32, 32)
+2026-02-09 00:16:35 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:16:35 |    INFO | compiler | Building modules for graph with 4 nodes
+2026-02-09 00:16:35 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-09 00:16:35 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-09 00:16:35 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:16:35 |   DEBUG | compiler | Created merge node 3 (op=add)
+2026-02-09 00:16:35 |    INFO | compiler | Forward pass order: [0, 1, 3, 2]
+2026-02-09 00:16:35 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:16:35 |   DEBUG | compiler | Node 0 produced output shape (1, 8, 32, 32)
+2026-02-09 00:16:35 |   DEBUG | compiler | Node 1 produced output shape (1, 8, 32, 32)
+2026-02-09 00:16:35 |   DEBUG | compiler | Node 3 produced output shape (1, 8, 32, 32)
+2026-02-09 00:16:35 |   DEBUG | compiler | Node 2 produced output shape (1, 8, 32, 32)
+2026-02-09 00:16:35 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:16:35 |    INFO | compiler | Building modules for graph with 4 nodes
+2026-02-09 00:16:35 |   DEBUG | compiler | Created SeparableConv node 0: in=3 out=8
+2026-02-09 00:16:35 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-09 00:16:35 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:16:35 |   DEBUG | compiler | Created merge node 3 (op=add)
+2026-02-09 00:22:59 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:22:59 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:22:59 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-09 00:22:59 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-09 00:22:59 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:22:59 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 0 produced output shape (1, 8, 32, 32)
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 1 produced output shape (1, 8, 32, 32)
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 2 produced output shape (1, 8, 32, 32)
+2026-02-09 00:22:59 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:22:59 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:22:59 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=12 k=3 s=1 p=1 groups=1
+2026-02-09 00:22:59 |   DEBUG | compiler | Created BN node 1: features=12
+2026-02-09 00:22:59 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:22:59 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 0 produced output shape (1, 12, 32, 32)
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 1 produced output shape (1, 12, 32, 32)
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 2 produced output shape (1, 12, 32, 32)
+2026-02-09 00:22:59 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:22:59 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:22:59 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=12 k=3 s=1 p=1 groups=1
+2026-02-09 00:22:59 |   DEBUG | compiler | Created BN node 1: features=12
+2026-02-09 00:22:59 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:22:59 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 0 produced output shape (1, 12, 32, 32)
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 1 produced output shape (1, 12, 32, 32)
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 2 produced output shape (1, 12, 32, 32)
+2026-02-09 00:22:59 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:22:59 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:22:59 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=4 k=3 s=1 p=1 groups=1
+2026-02-09 00:22:59 |   DEBUG | compiler | Created BN node 1: features=4
+2026-02-09 00:22:59 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:22:59 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 0 produced output shape (1, 4, 32, 32)
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 1 produced output shape (1, 4, 32, 32)
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 2 produced output shape (1, 4, 32, 32)
+2026-02-09 00:22:59 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:22:59 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:22:59 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=4 k=3 s=1 p=1 groups=1
+2026-02-09 00:22:59 |   DEBUG | compiler | Created BN node 1: features=4
+2026-02-09 00:22:59 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:22:59 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 0 produced output shape (1, 4, 32, 32)
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 1 produced output shape (1, 4, 32, 32)
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 2 produced output shape (1, 4, 32, 32)
+2026-02-09 00:22:59 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:22:59 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:22:59 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-09 00:22:59 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-09 00:22:59 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:22:59 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 0 produced output shape (1, 8, 32, 32)
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 1 produced output shape (1, 8, 32, 32)
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 2 produced output shape (1, 8, 32, 32)
+2026-02-09 00:22:59 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:22:59 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:22:59 |   DEBUG | compiler | Created SeparableConv node 0: in=3 out=4
+2026-02-09 00:22:59 |   DEBUG | compiler | Created BN node 1: features=4
+2026-02-09 00:22:59 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:22:59 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 0 produced output shape (1, 4, 32, 32)
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 1 produced output shape (1, 4, 32, 32)
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 2 produced output shape (1, 4, 32, 32)
+2026-02-09 00:22:59 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:22:59 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:22:59 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=2 k=3 s=1 p=1 groups=1
+2026-02-09 00:22:59 |   DEBUG | compiler | Created BN node 1: features=2
+2026-02-09 00:22:59 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:22:59 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 0 produced output shape (1, 2, 32, 32)
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 1 produced output shape (1, 2, 32, 32)
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 2 produced output shape (1, 2, 32, 32)
+2026-02-09 00:22:59 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:22:59 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:22:59 |   DEBUG | compiler | Created SeparableConv node 0: in=3 out=4
+2026-02-09 00:22:59 |   DEBUG | compiler | Created BN node 1: features=4
+2026-02-09 00:22:59 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:22:59 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 0 produced output shape (1, 4, 32, 32)
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 1 produced output shape (1, 4, 32, 32)
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 2 produced output shape (1, 4, 32, 32)
+2026-02-09 00:22:59 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:22:59 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:22:59 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-09 00:22:59 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-09 00:22:59 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:22:59 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 0 produced output shape (1, 8, 32, 32)
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 1 produced output shape (1, 8, 32, 32)
+2026-02-09 00:22:59 |   DEBUG | compiler | Node 2 produced output shape (1, 8, 32, 32)
+2026-02-09 00:25:59 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:25:59 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:25:59 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-09 00:25:59 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-09 00:25:59 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:25:59 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:25:59 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:25:59 |   DEBUG | compiler | Node 0 produced output shape (1, 8, 32, 32)
+2026-02-09 00:25:59 |   DEBUG | compiler | Node 1 produced output shape (1, 8, 32, 32)
+2026-02-09 00:25:59 |   DEBUG | compiler | Node 2 produced output shape (1, 8, 32, 32)
+2026-02-09 00:25:59 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:25:59 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:25:59 |   DEBUG | compiler | Created SeparableConv node 0: in=3 out=8
+2026-02-09 00:25:59 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-09 00:25:59 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:25:59 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:25:59 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:25:59 |   DEBUG | compiler | Node 0 produced output shape (1, 8, 32, 32)
+2026-02-09 00:25:59 |   DEBUG | compiler | Node 1 produced output shape (1, 8, 32, 32)
+2026-02-09 00:25:59 |   DEBUG | compiler | Node 2 produced output shape (1, 8, 32, 32)
+2026-02-09 00:25:59 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:25:59 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:25:59 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=12 k=3 s=1 p=1 groups=1
+2026-02-09 00:25:59 |   DEBUG | compiler | Created BN node 1: features=12
+2026-02-09 00:25:59 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:25:59 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:25:59 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:25:59 |   DEBUG | compiler | Node 0 produced output shape (1, 12, 32, 32)
+2026-02-09 00:25:59 |   DEBUG | compiler | Node 1 produced output shape (1, 12, 32, 32)
+2026-02-09 00:25:59 |   DEBUG | compiler | Node 2 produced output shape (1, 12, 32, 32)
+2026-02-09 00:25:59 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:25:59 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:25:59 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=12 k=3 s=1 p=1 groups=1
+2026-02-09 00:25:59 |   DEBUG | compiler | Created BN node 1: features=12
+2026-02-09 00:25:59 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:25:59 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:25:59 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:25:59 |   DEBUG | compiler | Node 0 produced output shape (1, 12, 32, 32)
+2026-02-09 00:25:59 |   DEBUG | compiler | Node 1 produced output shape (1, 12, 32, 32)
+2026-02-09 00:25:59 |   DEBUG | compiler | Node 2 produced output shape (1, 12, 32, 32)
+2026-02-09 00:32:09 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:32:09 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:32:09 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=8 k=3 s=1 p=1 groups=1
+2026-02-09 00:32:09 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-09 00:32:09 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:32:09 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:32:09 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:32:09 |   DEBUG | compiler | Node 0 produced output shape (1, 8, 32, 32)
+2026-02-09 00:32:09 |   DEBUG | compiler | Node 1 produced output shape (1, 8, 32, 32)
+2026-02-09 00:32:09 |   DEBUG | compiler | Node 2 produced output shape (1, 8, 32, 32)
+2026-02-09 00:32:09 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:32:09 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:32:09 |   DEBUG | compiler | Created SeparableConv node 0: in=3 out=8
+2026-02-09 00:32:09 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-09 00:32:09 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:32:09 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:32:09 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:32:09 |   DEBUG | compiler | Node 0 produced output shape (1, 8, 32, 32)
+2026-02-09 00:32:09 |   DEBUG | compiler | Node 1 produced output shape (1, 8, 32, 32)
+2026-02-09 00:32:09 |   DEBUG | compiler | Node 2 produced output shape (1, 8, 32, 32)
+2026-02-09 00:32:09 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:32:09 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:32:09 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=4 k=3 s=1 p=1 groups=1
+2026-02-09 00:32:09 |   DEBUG | compiler | Created BN node 1: features=4
+2026-02-09 00:32:09 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:32:09 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:32:09 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:32:09 |   DEBUG | compiler | Node 0 produced output shape (1, 4, 32, 32)
+2026-02-09 00:32:09 |   DEBUG | compiler | Node 1 produced output shape (1, 4, 32, 32)
+2026-02-09 00:32:09 |   DEBUG | compiler | Node 2 produced output shape (1, 4, 32, 32)
+2026-02-09 00:32:09 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:32:09 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:32:09 |   DEBUG | compiler | Created Conv2d node 0: in=3 out=4 k=3 s=1 p=1 groups=1
+2026-02-09 00:32:09 |   DEBUG | compiler | Created BN node 1: features=4
+2026-02-09 00:32:09 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:32:09 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:32:09 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:32:09 |   DEBUG | compiler | Node 0 produced output shape (1, 4, 32, 32)
+2026-02-09 00:32:09 |   DEBUG | compiler | Node 1 produced output shape (1, 4, 32, 32)
+2026-02-09 00:32:09 |   DEBUG | compiler | Node 2 produced output shape (1, 4, 32, 32)
+2026-02-09 00:32:09 |    INFO | compiler | Initializing CompiledModel
+2026-02-09 00:32:09 |    INFO | compiler | Building modules for graph with 3 nodes
+2026-02-09 00:32:09 |   DEBUG | compiler | Created SeparableConv node 0: in=3 out=8
+2026-02-09 00:32:09 |   DEBUG | compiler | Created BN node 1: features=8
+2026-02-09 00:32:09 |   DEBUG | compiler | Created ReLU node 2
+2026-02-09 00:32:09 |    INFO | compiler | Forward pass order: [0, 1, 2]
+2026-02-09 00:32:09 |   DEBUG | compiler | Node 0 has no parents — using graph input
+2026-02-09 00:32:09 |   DEBUG | compiler | Node 0 produced output shape (1, 8, 32, 32)
+2026-02-09 00:32:09 |   DEBUG | compiler | Node 1 produced output shape (1, 8, 32, 32)
+2026-02-09 00:32:09 |   DEBUG | compiler | Node 2 produced output shape (1, 8, 32, 32)

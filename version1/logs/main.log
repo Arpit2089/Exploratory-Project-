@@ -1,0 +1,13 @@
+2026-02-09 00:03:39 |    INFO | main | Starting LEMONADE experiment
+2026-02-09 00:07:45 |    INFO | main | Starting LEMONADE experiment
+2026-02-09 00:12:22 |    INFO | main | Starting LEMONADE experiment
+2026-02-09 00:16:35 |    INFO | main | Starting LEMONADE experiment
+2026-02-09 00:22:59 |    INFO | main | Starting LEMONADE experiment
+2026-02-09 00:25:59 |    INFO | main | Starting LEMONADE experiment
+2026-02-09 00:25:59 |    INFO | main | Final Pareto population size: 3
+2026-02-09 00:25:59 |    INFO | main | Model 0: params=67 flops=52224
+2026-02-09 00:25:59 |    INFO | main | Model 1: params=67 flops=52224
+2026-02-09 00:25:59 |    INFO | main | Model 2: params=67 flops=52224
+2026-02-09 00:32:09 |    INFO | main | Starting LEMONADE experiment
+2026-02-09 00:32:09 |    INFO | main | Final Pareto population size: 1
+2026-02-09 00:32:09 |    INFO | main | Model 0: params=67 flops=52224
