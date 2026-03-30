@@ -104,7 +104,7 @@ def main():
         test_loader = None
 
     # FIX: Generate a diverse starting population of 6 architectures instead of 2 identical ones
-    init_graphs = create_diverse_seed_population(num_seeds=6)
+    init_graphs = create_diverse_seed_population(num_seeds=3)
 
     # -------------------------------------------------
     # Run LEMONADE
