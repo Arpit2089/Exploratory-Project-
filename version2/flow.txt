@@ -1,0 +1,12 @@
+parrrallely intiallize parent population (initial population)
+
+Generation loop:
+    KDE sampling on currrent population
+    lamarckian inheritence
+    operators will apply morphism on population:
+        if exact then ok
+        if approximate morphism then apply distillation learning
+    #this ensure child is same as parent in behaviour but differnt in weight
+    KDE sampling on child
+    then do training of child on its epochs(every time)
+    pareto front (population + child)
