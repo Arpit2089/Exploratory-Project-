@@ -31,20 +31,22 @@ class NASConfig:
     #   ["params"]           → params-only (fast, no model build for cheap eval)
     #   []                   → single-objective NAS (val_error only)
     # -------------------------------------------------------------------------
-    CHEAP_OBJECTIVES: List[str] = field(default_factory=lambda: ["params", "flops"])
+    CHEAP_OBJECTIVES: List[str] = field(default_factory=lambda: ["params"])
+    # CHEAP_OBJECTIVES: List[str] = field(default_factory=lambda: [])
+    # CHEAP_OBJECTIVES: List[str] = field(default_factory=lambda: ["params", "flops"])
 
     # -------------------------------------------------------------------------
     # Evolution
     # -------------------------------------------------------------------------
     GENERATIONS: int = 6
-    NUM_SEEDS: int = 8
+    NUM_SEEDS: int = 16
 
     # npc: candidates generated per generation.  Must be > N_ACCEPT.
-    N_CHILDREN: int = 14
+    N_CHILDREN: int = 20
 
     # nac: how many pass the KDE filter and enter expensive training.
     # Ratio N_CHILDREN / N_ACCEPT should be at least 3:1 for meaningful filtering.
-    N_ACCEPT: int = 8
+    N_ACCEPT: int = 12
 
     # Hard parameter cap; children exceeding this are discarded before training.
     MAX_PARAMS: int = 10_000_000
@@ -61,7 +63,7 @@ class NASConfig:
     #   DISTILL_EPOCHS: ANM children only — distillation alignment BEFORE
     #                   the standard CHILD_EPOCHS training phase
     # -------------------------------------------------------------------------
-    INIT_EPOCHS: int = 5
+    INIT_EPOCHS: int = 6
     CHILD_EPOCHS: int = 4
     DISTILL_EPOCHS: int = 2
 
@@ -75,16 +77,19 @@ class NASConfig:
     OPTIMIZER: str = "sgd"
 
     # Learning rates — separate per phase
-    INIT_LR: float = 0.01        # Gen 0
-    CHILD_LR: float = 0.005      # Gen 1+ training
-    DISTILL_LR: float = 0.001    # Distillation alignment
+    INIT_LR: float = 0.025        # Gen 0
+    CHILD_LR: float = 0.01      # Gen 1+ training
+    DISTILL_LR: float = 0.005    # Distillation alignment
+    # INIT_LR: float = 0.01        # Gen 0
+    # CHILD_LR: float = 0.005      # Gen 1+ training
+    # DISTILL_LR: float = 0.001    # Distillation alignment
 
-    WEIGHT_DECAY: float = 1e-4
+    WEIGHT_DECAY: float = 3e-4
 
     # Distillation settings
-    DISTILL_TEMPERATURE: float = 3.0
+    DISTILL_TEMPERATURE: float = 4.0
     # 0.0 = pure teacher-mimicking, 1.0 = pure cross-entropy on hard labels
-    DISTILL_ALPHA: float = 0.0
+    DISTILL_ALPHA: float = 0.5
 
     # -------------------------------------------------------------------------
     # KDE Sampler
