@@ -1,0 +1,43 @@
+# datasets
+*.tar.gz
+
+cifar-10-batches-py/
+
+__pycache__/
+
+# -------------------------------
+# DATASETS (ignore all archives)
+# -------------------------------
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# specific dataset folders/files
+cifar-10-batches-py/
+VersionN/data/
+cifar-100-python
+
+# -------------------------------
+# PYTHON
+# -------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# virtual environments
+.venv/
+venv/
+env/
+
+# -------------------------------
+# JUPYTER
+# -------------------------------
+.ipynb_checkpoints/
+
+# -------------------------------
+# OS FILES
+# -------------------------------
+.DS_Store
+Thumbs.db
