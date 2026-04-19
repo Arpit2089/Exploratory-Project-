@@ -1,0 +1,12 @@
+#ignore lemonade_env
+lemonade_env/
+venv/
+
+#ignore logs
+logs/
+
+*.log
+
+__pycache__/
+
+results*/
